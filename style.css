@@ -83,7 +83,7 @@ p {
   width: 50%;
   height: 200px;
 }
-.card-project > img {
+.card-project img {
   height: 200px;
   width: 100%;
   object-fit: cover;
