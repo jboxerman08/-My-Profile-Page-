@@ -1,3 +1,4 @@
+/* Text Styling */
 h1 {
   color: #222831;
   font-family: 'Yanone Kaffeesatz', sans-serif;
@@ -6,7 +7,6 @@ h1 {
   padding-bottom: 10px;
   margin: 0px;
 }
-
 h2 {
   color: #00ADB5;
   font-family: 'Yanone Kaffeesatz', sans-serif;
@@ -14,14 +14,12 @@ h2 {
   text-align: center;
   margin: 0px;
 }
-
 a {
   font-weight: bold;
   text-decoration: none;
   line-height: 8px;
   text-align: center;
 }
-
 body {
   background: #EEEEEE;
   font-family: 'Open Sans Condensed', sans-serif;
@@ -29,7 +27,6 @@ body {
   font-size: 16px;
   text-align: center;
 }
-
 p {
   margin: 8px 24px 24px;
   padding: 16px;
@@ -37,32 +34,30 @@ p {
   letter-spacing: -0.5px;
 }
 
+
+/* Components styling */
+.container {
+  width: 700px;
+  margin: 40px auto;
+}
 .img-circle {
   border-radius: 50%;
   object-fit: cover;
   box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
   margin-top: 24px;
 }
-
-.container {
-  width: 700px;
-  margin: 40px auto;
-}
-
 .btn-orange {
   background-color: #fd1015;
   color: white;
   padding: 14px 20px;
   border-radius: 4px;
 }
-
 .btn-orange:hover {
     background-color: black;
     color: white;
     padding: 15px 20px;
     border-radius: 4px;
 }
-
 .card-white {
     background: white;
     padding: 40px;
@@ -71,36 +66,33 @@ p {
     box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
 }
 
+/* Social Link list items */
 .list-inline {
   list-style: none;
   padding-left: 0px;
 }
-
 .li {
   display: list-item;
 }
-
 .list-inline i {
   font-size: 40px;
   color: rgb(230, 230, 230);
 }
-
 .list-inline i:hover {
     color: black;
 }
-
 .list-inline > li {
   display: inline-block;
   padding: 0px 10px;
 }
 
+/* Responsiveness */
 @media (max-width: 720px) {
   /* For a screen < 720px, this CSS will be read */
   .container {
     width: 500px;
   }
 }
-
 @media (max-width: 540px) {
   /* For a screen < 540px, this CSS will be read */
   .container {
