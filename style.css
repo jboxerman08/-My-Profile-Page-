@@ -37,7 +37,7 @@ p {
 
 /* Components styling */
 .container {
-  width: 700px;
+  width: 800px;
   margin: 40px auto;
 }
 .img-circle {
@@ -75,35 +75,37 @@ p {
 }
 
 /*  */
-.card-project {
-  display: flex;
+.card-product {
   overflow: hidden;
+  height: 120px;
   background: white;
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
-  width: 50%;
-  height: 200px;
+  display: flex;
+  align-items: center;
 }
-.card-project img {
-  height: 200px;
-  width: 100%;
+
+.card-product img {
+  height: 100%;
+  width: 120px;
   object-fit: cover;
 }
-.card-project h2 {
+
+.card-product h2 {
   font-size: 16px;
   font-weight: bold;
   margin: 0;
 }
-.card-project p {
+
+.card-product p {
   font-size: 12px;
+  line-height: 1.4;
   opacity: .7;
-  margin: 0;
+  margin-bottom: 0;
+  margin-top: 8px;
 }
-.card-project .project-infos {
+
+.card-product .card-product-infos {
   padding: 16px;
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
-  position: relative;
 }
 
 /* Social Link list items */
