@@ -36,6 +36,7 @@ p {
 }
 
 
+
 /* Components styling */
 .container {
   width: 800px;
@@ -68,7 +69,9 @@ p {
   box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
 }
 
-/* Project card styling */
+
+
+/* BootCamp Projects Section */
 .card-project {
   overflow: hidden;
   height: 175px;
@@ -79,19 +82,16 @@ p {
   margin-bottom: 24px;
   border-radius: 4px;
 }
-
 .card-project img {
   height: 100%;
   width: 225px;
   object-fit: cover;
 }
-
 .card-project h2 {
   font-size: 24px;
   font-weight: bold;
   margin: 0;
 }
-
 .card-project p {
   font-size: 16px;
   line-height: 1.4;
@@ -104,10 +104,44 @@ p {
   align-self: baseline;
 }
 
-/* .card-project .card-project-infos {
+
+
+/* Side-Project Section */
+.card-side-project {
+  overflow: hidden;
+  height: 175px;
+  background: white;
+  box-shadow: 0 0 15px rgb(0 0 0 / 20%);
+  display: flex;
+  align-items: center;
+  margin-bottom: 24px;
+  border-radius: 4px;
+}
+.card-side-project img {
+  height: 100%;
+  width: 225px;
+  object-fit: cover;
+}
+
+.card-side-project h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.card-side-project p {
+  font-size: 16px;
+  line-height: 1.4;
+  opacity: .7;
+  margin-bottom: 0;
+  margin-top: 8px;
+}
+.card-side-project-infos {
   padding: 8px;
   align-self: baseline;
-} */
+}
+
+
 
 /* Social Link list items */
 .list-inline {
