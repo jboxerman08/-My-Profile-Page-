@@ -98,11 +98,15 @@ p {
   margin-bottom: 0;
   margin-top: 8px;
 }
-
-.card-project .card-project-infos {
+.card-project-infos {
   padding: 8px;
-  margin: auto;
+  align-self: baseline;
 }
+
+/* .card-project .card-project-infos {
+  padding: 8px;
+  align-self: baseline;
+} */
 
 /* Social Link list items */
 .list-inline {
