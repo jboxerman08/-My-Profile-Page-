@@ -109,26 +109,23 @@ p {
 /* Side-Project Section */
 .card-side-project {
   overflow: hidden;
-  height: 175px;
   background: white;
   box-shadow: 0 0 15px rgb(0 0 0 / 20%);
-  display: flex;
   align-items: center;
   margin-bottom: 24px;
   border-radius: 4px;
+  padding: 12px;
 }
 .card-side-project img {
   height: 100%;
   width: 225px;
   object-fit: cover;
 }
-
 .card-side-project h2 {
   font-size: 24px;
   font-weight: bold;
   margin: 0;
 }
-
 .card-side-project p {
   font-size: 16px;
   line-height: 1.4;
