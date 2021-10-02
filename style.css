@@ -41,7 +41,10 @@ p {
  display: inline;
  text-align: center;
 }
-
+.bootcamp-info p {
+  padding: 0px;
+  margin: 0px;
+}
 
 
 /* Components styling */
@@ -119,12 +122,12 @@ p {
   display: list-item;
 }
 .list-inline i {
-  font-size: 40px;
+  font-size: 44px;
   color: rgb(230, 230, 230);
 }
 .list-inline i:hover {
   color: black;
-  font-size: 44px;
+  font-size: 40px;
 }
 .list-inline > li {
   display: inline-block;
