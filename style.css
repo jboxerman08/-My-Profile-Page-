@@ -74,8 +74,10 @@ p {
 /* BootCamp Projects Section */
 .card-project {
   overflow: hidden;
+  height: 175px;
   background: white;
   box-shadow: 0 0 15px rgb(0 0 0 / 20%);
+  display: flex;
   align-items: center;
   margin-bottom: 24px;
   border-radius: 4px;
