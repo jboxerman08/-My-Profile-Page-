@@ -1,6 +1,6 @@
 /* Text Styling */
 h1 {
-  color: #222831;
+  color: #3d3d3d;
   font-family: 'Yanone Kaffeesatz', sans-serif;
   font-size: 40px;
   text-align: center;
@@ -126,8 +126,8 @@ p {
   color: rgb(230, 230, 230);
 }
 .list-inline i:hover {
-  color: black;
-  font-size: 40px;
+  color: rgb(80, 80, 80);
+  font-size: 42px;
 }
 .list-inline > li {
   display: inline-block;
