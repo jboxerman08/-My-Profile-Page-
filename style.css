@@ -74,7 +74,6 @@ p {
 /* BootCamp Projects Section */
 .card-project {
   overflow: hidden;
-  /* height: 175px; */
   background: white;
   box-shadow: 0 0 15px rgb(0 0 0 / 20%);
   align-items: center;
@@ -83,13 +82,10 @@ p {
 }
 .card-project img {
   height: 100%;
-  width: 100%;
+  width: 75%;
   object-fit: cover;
   border-radius: 4px;
-}
-.card-project h2 {
-  font-size: 24px;
-  font-weight: bold;
+  box-shadow: 0 0 15px rgb(0 0 0 / 20%);
 }
 .card-project p {
   font-size: 16px;
@@ -99,7 +95,7 @@ p {
   margin-top: 8px;
 }
 .card-project-infos {
-  padding: 8px;
+  padding: 16px;
   align-self: baseline;
 }
 
