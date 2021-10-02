@@ -38,7 +38,8 @@ p {
   text-align: left;
 }
 .fullstack-icons {
- display: flex;
+ display: inline;
+ text-align: center;
 }
 
 
