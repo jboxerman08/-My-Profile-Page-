@@ -42,8 +42,8 @@ p {
  text-align: center;
 }
 .bootcamp-info p {
-  padding: 0px;
-  margin: 0px;
+  padding: 0px 16px;
+  margin: 8px 8px 16px;
 }
 
 
@@ -64,6 +64,7 @@ p {
   color: white;
   padding: 14px 20px;
   border-radius: 4px;
+  margin-top: 16px;
 }
 .btn-contact:hover {
   opacity: 80%;
