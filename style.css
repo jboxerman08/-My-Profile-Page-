@@ -83,13 +83,13 @@ p {
 }
 .card-project img {
   height: 100%;
-  width: 225px;
+  width: 100%;
   object-fit: cover;
+  border-radius: 4px;
 }
 .card-project h2 {
   font-size: 24px;
   font-weight: bold;
-  margin: 0;
 }
 .card-project p {
   font-size: 16px;
@@ -99,41 +99,6 @@ p {
   margin-top: 8px;
 }
 .card-project-infos {
-  padding: 8px;
-  align-self: baseline;
-}
-
-
-
-/* Side-Project Section */
-.card-side-project {
-  overflow: hidden;
-  background: white;
-  box-shadow: 0 0 15px rgb(0 0 0 / 20%);
-  align-items: center;
-  margin-bottom: 24px;
-  border-radius: 4px;
-  padding: 12px;
-}
-.card-side-project img {
-  height: 100%;
-  width: 300px;
-  object-fit: cover;
-  border-radius: 4px;
-}
-.card-side-project h2 {
-  font-size: 24px;
-  font-weight: bold;
-  margin: 0;
-}
-.card-side-project p {
-  font-size: 16px;
-  line-height: 1.4;
-  opacity: .7;
-  margin-bottom: 0;
-  margin-top: 8px;
-}
-.card-side-project-infos {
   padding: 8px;
   align-self: baseline;
 }
