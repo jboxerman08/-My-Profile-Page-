@@ -46,6 +46,7 @@ p {
 }
 
 
+
 /* Components styling */
 .container {
   width: 800px;
@@ -56,6 +57,7 @@ p {
   object-fit: cover;
   box-shadow: 0px 10px 30px rgb(0 0 0 / 20%);
   margin-top: 8px;
+  margin-bottom: 12px;
   border: 1px solid lightseagreen;
 }
 .btn-contact {
@@ -81,6 +83,7 @@ p {
 .card-white h1 {
   margin-bottom: 16px;
 }
+
 
 
 /* Projects Section */
