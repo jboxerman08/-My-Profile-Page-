@@ -33,7 +33,9 @@ p {
   line-height: 1.4;
   letter-spacing: -0.5px;
 }
-
+.bootcamp-info {
+  list-style: none;
+}
 
 
 /* Components styling */
@@ -115,7 +117,8 @@ p {
   color: rgb(230, 230, 230);
 }
 .list-inline i:hover {
-    color: black;
+  color: black;
+  font-size: 44px;
 }
 .list-inline > li {
   display: inline-block;
