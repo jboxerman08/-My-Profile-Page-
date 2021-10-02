@@ -37,6 +37,10 @@ p {
   list-style: none;
   text-align: left;
 }
+.fullstack-icons {
+ display: flex;
+}
+
 
 
 /* Components styling */
