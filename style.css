@@ -56,10 +56,10 @@ p {
   border-radius: 4px;
 }
 .btn-orange:hover {
-    background-color: black;
-    color: white;
-    padding: 15px 20px;
-    border-radius: 4px;
+  background-color: black;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 4px;
 }
 .card-white {
   background: white;
@@ -74,10 +74,8 @@ p {
 /* BootCamp Projects Section */
 .card-project {
   overflow: hidden;
-  height: 175px;
   background: white;
   box-shadow: 0 0 15px rgb(0 0 0 / 20%);
-  display: flex;
   align-items: center;
   margin-bottom: 24px;
   border-radius: 4px;
