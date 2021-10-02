@@ -118,8 +118,9 @@ p {
 }
 .card-side-project img {
   height: 100%;
-  width: 225px;
+  width: 300px;
   object-fit: cover;
+  border-radius: 4px;
 }
 .card-side-project h2 {
   font-size: 24px;
