@@ -39,6 +39,7 @@ p {
 }
 .fullstack-icons {
   display: flex;
+  justify-content: space-evenly;
   margin-bottom: 40px;
 }
 .bootcamp-info p {
@@ -50,20 +51,20 @@ p {
 
 /* Testing something for icons */
 .icon {
-wtext-align:center;
-border-radius: 50%;
--webkit-transition: all 0.3s ease-in-out;
--moz-transition: all 0.3s ease-in-out;
--ms-transition: all 0.3s ease-in-out;
--o-transition: all 0.3s ease-in-out;
-transition: all 0.3s ease-in-out;
+  wtext-align:center;
+  border-radius: 50%;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 .icon:hover, .icon:active {
--webkit-transform: scale(1.3);
--moz-transform: scale(1.3);
--ms-transform: scale(1.3);
--o-transform: scale(1.3);
-transform: scale(1.3);
+  -webkit-transform: scale(1.3);
+  -moz-transform: scale(1.3);
+  -ms-transform: scale(1.3);
+  -o-transform: scale(1.3);
+  transform: scale(1.3);
 }
 
 
@@ -147,7 +148,6 @@ transform: scale(1.3);
 }
 .list-inline i:hover {
   color: #125E8A;
-  font-size: 42px;
 }
 .list-inline > li {
   display: inline-block;
