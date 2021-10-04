@@ -91,7 +91,7 @@ p {
   transition: all 0.3s ease-in-out;
 }
 .img-circle:hover {
-  border-radius: 0%;
+  border-radius: 25%;
   -webkit-transform: scale(1.2);
   -moz-transform: scale(1.2);
   -ms-transform: scale(1.2);
@@ -158,11 +158,11 @@ p {
   object-fit: cover;
   border-radius: 4px;
   box-shadow: 0 0 15px rgb(0 0 0 / 20%);
-  -webkit-transform: scale(1.2);
-  -moz-transform: scale(1.2);
-  -ms-transform: scale(1.2);
-  -o-transform: scale(1.2);
-  transform: scale(1.2);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  transform: scale(1.1);
 }
 .card-project p {
   font-size: 16px;
