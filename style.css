@@ -1,6 +1,6 @@
 /* Text Styling */
 h1 {
-  color: #3d3d3d;
+  color: #222831;
   font-family: 'Yanone Kaffeesatz', sans-serif;
   font-size: 40px;
   text-align: center;
@@ -19,6 +19,7 @@ a {
   text-decoration: none;
   line-height: 8px;
   text-align: center;
+  color: #FA8334;
 }
 body {
   background: #EEEEEE;
@@ -56,10 +57,10 @@ p {
   border-radius: 50%;
   object-fit: cover;
   box-shadow: 0px 10px 30px rgb(0 0 0 / 20%);
-  border: 1px solid lightseagreen;
+  border: 1px solid #125E8A;
 }
 .btn-contact {
-  background-color: lightseagreen;
+  background-color: #125E8A;
   color: white;
   padding: 14px 20px;
   border-radius: 4px;
@@ -124,10 +125,10 @@ p {
 }
 .list-inline i {
   font-size: 44px;
-  color: rgb(230, 230, 230);
+  color: #D4D2D5;
 }
 .list-inline i:hover {
-  color: rgb(80, 80, 80);
+  color: #FA8334;
   font-size: 42px;
 }
 .list-inline > li {
