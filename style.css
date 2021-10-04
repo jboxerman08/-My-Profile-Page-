@@ -184,17 +184,6 @@ p {
   .container {
     width: 390px;
   }
-  .fullstack-icons {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    justify-content: center;
-  }
-  li:last-child:nth-child(3n - 1) {
-    grid-column-end: -2;
-  }
-  li:nth-last-child(2):nth-child(3n + 1) {
-    grid-column-end: 4;
-  }
 }
 @media (max-width: 375px) {
   .container {
