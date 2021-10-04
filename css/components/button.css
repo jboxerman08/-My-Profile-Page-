@@ -14,6 +14,7 @@
 }
 .btn-contact:hover {
   opacity: 80%;
+  padding: 16px 22px;
   -webkit-transform: scale(1.3);
   -moz-transform: scale(1.3);
   -ms-transform: scale(1.3);
