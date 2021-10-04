@@ -1,17 +1,16 @@
 /* Text Styling */
-h1 h2 {
-  font-family: 'Yanone Kaffeesatz', sans-serif;
-  text-align: center;
-  margin: 0px;
-}
 h1 {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
   color: #222831;
   font-size: 40px;
+  margin: 0px;
 }
 h2 {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
   color: #00ADB5;
   font-size: 32px;
   margin-bottom: 24px;
+  margin: 0px;
 }
 a {
   text-decoration: none;
@@ -23,7 +22,7 @@ a:hover {
 }
 body {
   background: #EEEEEE;
-  background: radial-gradient(circle, rgba(250,131,52,0.5) 0%, rgba(212,210,213,0.5) 35%, rgba(0,212,255,0.5) 70%, rgba(18,94,138,0.5) 100%);
+  background: radial-gradient(circle, rgba(250,131,52,0.5) 0%, rgba(212,210,213,0.5) 25%, rgba(0,212,255,0.5) 60%, rgba(18,94,138,0.5) 100%);
   font-family: 'Open Sans Condensed', sans-serif;
   color: #222831;
   font-size: 16px;
