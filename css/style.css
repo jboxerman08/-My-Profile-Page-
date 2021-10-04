@@ -1,0 +1,146 @@
+/* Main CSS Sheet - Text/Link styling + Responsiveness */
+
+/* Import components stylesheets */
+@import url("components/icon.css");
+@import url("components/container.css");
+@import url("components/avatar.css");
+@import url("components/button.css");
+@import url("components/card.css");
+
+/* Text Styling */
+h1 {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  color: #222831;
+  font-size: 40px;
+  margin: 0px;
+}
+h2 {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  color: #00ADB5;
+  font-size: 32px;
+  margin-bottom: 16px;
+  margin-top: -8px;
+}
+p {
+  margin: 4px 8px 16px;
+  padding: 16px;
+  line-height: 1.4;
+  letter-spacing: -0.5px;
+  opacity: .7;
+}
+body {
+  background: radial-gradient(circle, rgba(250,131,52,0.5) 0%, rgba(212,210,213,0.5) 25%, rgba(0,212,255,0.5) 60%, rgba(18,94,138,0.5) 100%);
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: #222831;
+  font-size: 16px;
+  text-align: center;
+}
+.bootcamp-info {
+  list-style: none;
+  text-align: left;
+}
+.bootcamp-info p {
+  padding: 0px 16px;
+  margin: 8px 8px 16px;
+}
+a {
+  text-decoration: none;
+  line-height: 8px;
+  color: #FA8334;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+a:hover {
+  font-weight: bold;
+  -webkit-transform: scale(1.3);
+  -moz-transform: scale(1.3);
+  -ms-transform: scale(1.3);
+  -o-transform: scale(1.3);
+  transform: scale(1.3);
+}
+
+
+/* Social Link list items */
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+.li {
+  display: list-item;
+}
+.list-inline i {
+  font-size: 44px;
+  color: #D4D2D5;
+}
+.list-inline i:hover {
+  color: #125E8A;
+}
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 10px;
+}
+
+
+
+/* Responsiveness */
+@media (max-width: 900px) {
+  /* For a screen < 900px, this CSS will be read */
+  .container {
+    width: 730px;
+  }
+  .hgn-logo-video {
+    width: 492px;
+    height: 277px;
+  }
+}
+@media (max-width: 750px) {
+  /* For a screen < 750px, this CSS will be read */
+  .container {
+    width: 600px;
+  }
+  .hgn-logo-video {
+    width: 410px;
+    height: 231px;
+  }
+  .fullstack-icons {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-content: center;
+  }
+}
+@media (max-width: 640px) {
+  /* For a screen < 640px, this CSS will be read */
+  .container {
+    width: 420px;
+  }
+  .card-white {
+    padding: 32px 36px;
+  }
+  .hgn-logo-video {
+    width: 290px;
+    height: 163px;
+  }
+}
+@media (max-width: 420px) {
+  /* For a screen < 420px, this CSS will be read */
+  .container {
+    width: 390px;
+  }
+  .hgn-logo-video {
+    width: 256px;
+    height: 144px;
+  }
+}
+@media (max-width: 375px) {
+  /* For a screen < 375px, this CSS will be read */
+  .container {
+    width: 350px;
+  }
+  .hgn-logo-video {
+    width: 220px;
+    height: 124px;
+  }
+}
