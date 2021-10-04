@@ -91,10 +91,6 @@ a:hover {
   .container {
     width: 730px;
   }
-  .hgn-logo-video {
-    width: 492px;
-    height: 277px;
-  }
 }
 @media (max-width: 750px) {
   /* For a screen < 750px, this CSS will be read */
