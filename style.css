@@ -206,13 +206,13 @@ p {
 
 /* Responsiveness */
 @media (max-width: 900px) {
-  /* For a screen < 720px, this CSS will be read */
+  /* For a screen < 900px, this CSS will be read */
   .container {
     width: 730px;
   }
 }
 @media (max-width: 750px) {
-  /* For a screen < 720px, this CSS will be read */
+  /* For a screen < 750px, this CSS will be read */
   .container {
     width: 600px;
   }
@@ -223,9 +223,12 @@ p {
   }
 }
 @media (max-width: 640px) {
-  /* For a screen < 540px, this CSS will be read */
+  /* For a screen < 640px, this CSS will be read */
   .container {
     width: 420px;
+  }
+  .card-white {
+    padding: 32px 36px;
   }
   .hgn-logo-video {
     width: 100%;
@@ -233,6 +236,7 @@ p {
   }
 }
 @media (max-width: 420px) {
+  /* For a screen < 420px, this CSS will be read */
   .container {
     width: 390px;
   }
@@ -242,6 +246,7 @@ p {
   }
 }
 @media (max-width: 375px) {
+  /* For a screen < 375px, this CSS will be read */
   .container {
     width: 350px;
   }
