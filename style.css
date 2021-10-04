@@ -168,6 +168,10 @@ p {
   .container {
     width: 600px;
   }
+    .fullstack-icons {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
 }
 @media (max-width: 640px) {
   /* For a screen < 540px, this CSS will be read */
@@ -178,6 +182,10 @@ p {
 @media (max-width: 420px) {
   .container {
     width: 390px;
+  }
+  .fullstack-icons {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
   }
 }
 @media (max-width: 375px) {
