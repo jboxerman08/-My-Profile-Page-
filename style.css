@@ -9,8 +9,8 @@ h2 {
   font-family: 'Yanone Kaffeesatz', sans-serif;
   color: #00ADB5;
   font-size: 32px;
-  margin-bottom: 24px;
-  margin: 0px;
+  margin-bottom: 16px;
+  margin-top: -8px;
 }
 a {
   text-decoration: none;
@@ -107,7 +107,7 @@ p {
   margin-top: 8px;
 }
 .card-project-infos {
-  padding: 16px;
+  padding: 32px 16px 16px 16px;
   align-self: baseline;
 }
 
