@@ -1,4 +1,5 @@
 /* Main Card Styling */
+
 .card-white {
   background: white;
   padding: 40px 56px;
@@ -12,6 +13,7 @@
 
 
 /* Projects Card Styling */
+
 .card-project {
   overflow: hidden;
   background: white;
