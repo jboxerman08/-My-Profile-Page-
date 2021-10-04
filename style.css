@@ -47,6 +47,28 @@ p {
 
 
 
+/* Testing something for icons */
+.fullstack-icons {
+wtext-align:center;
+border-radius: 50%;
+padding:.5em .3em 0 .3em;
+margin:.5em;
+-webkit-transition: all 0.3s ease-in-out;
+-moz-transition: all 0.3s ease-in-out;
+-ms-transition: all 0.3s ease-in-out;
+-o-transition: all 0.3s ease-in-out;
+transition: all 0.3s ease-in-out;
+}
+.fullstack-icons:hover, .fullstack-icons:active {
+-webkit-transform: scale(1.3);
+-moz-transform: scale(1.3);
+-ms-transform: scale(1.3);
+-o-transform: scale(1.3);
+transform: scale(1.3);
+}
+
+
+
 /* Components styling */
 .container {
   width: 800px;
