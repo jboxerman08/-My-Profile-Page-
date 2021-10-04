@@ -38,6 +38,7 @@ p {
   text-align: left;
 }
 .fullstack-icons {
+  display: flex;
   margin-bottom: 40px;
 }
 .bootcamp-info p {
@@ -51,8 +52,6 @@ p {
 .icon {
 wtext-align:center;
 border-radius: 50%;
-padding:.5em .3em 0 .3em;
-margin:.5em;
 -webkit-transition: all 0.3s ease-in-out;
 -moz-transition: all 0.3s ease-in-out;
 -ms-transition: all 0.3s ease-in-out;
