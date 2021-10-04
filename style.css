@@ -15,10 +15,8 @@ h2 {
   margin-bottom: 24px;
 }
 a {
-  font-weight: bold;
   text-decoration: none;
   line-height: 8px;
-  /* text-align: center; */
   color: #FA8334;
 }
 a:hover {
@@ -26,7 +24,7 @@ a:hover {
 }
 body {
   background: #EEEEEE;
-  background: radial-gradient(circle, rgba(250,131,52,0.7497373949579832) 0%, rgba(212,210,213,0.500437675070028) 35%, rgba(0,212,255,0.5032387955182073) 70%, rgba(18,94,138,0.500437675070028) 100%);
+  background: radial-gradient(circle, rgba(250,131,52,0.5) 0%, rgba(212,210,213,0.5) 35%, rgba(0,212,255,0.5) 70%, rgba(18,94,138,0.5) 100%);
   font-family: 'Open Sans Condensed', sans-serif;
   color: #393E46;
   font-size: 16px;
@@ -61,7 +59,6 @@ p {
   border-radius: 50%;
   object-fit: cover;
   box-shadow: 0px 10px 30px rgb(0 0 0 / 20%);
-  border: 1px solid #125E8A;
 }
 .btn-contact {
   background-color: #125E8A;
@@ -81,7 +78,7 @@ p {
   padding: 40px 56px;
   margin: 20px 0px;
   border-radius: 4px;
-  box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
+  box-shadow: 0px 0px 24px rgb(230 230 230 / 50%);
 }
 .card-white h1 {
   margin-bottom: 16px;
