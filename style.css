@@ -168,9 +168,10 @@ p {
   .container {
     width: 600px;
   }
-    .fullstack-icons {
+  .fullstack-icons {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(5, 1fr);
+    justify-content: center;
   }
 }
 @media (max-width: 640px) {
@@ -185,7 +186,8 @@ p {
   }
   .fullstack-icons {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
   }
 }
 @media (max-width: 375px) {
