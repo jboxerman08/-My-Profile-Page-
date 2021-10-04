@@ -1,17 +1,16 @@
 /* Text Styling */
-h1 {
-  color: #222831;
+h1 h2 {
   font-family: 'Yanone Kaffeesatz', sans-serif;
-  font-size: 40px;
   text-align: center;
   margin: 0px;
 }
+h1 {
+  color: #222831;
+  font-size: 40px;
+}
 h2 {
   color: #00ADB5;
-  font-family: 'Yanone Kaffeesatz', sans-serif;
   font-size: 32px;
-  text-align: center;
-  margin: 0px;
   margin-bottom: 24px;
 }
 a {
@@ -26,7 +25,7 @@ body {
   background: #EEEEEE;
   background: radial-gradient(circle, rgba(250,131,52,0.5) 0%, rgba(212,210,213,0.5) 35%, rgba(0,212,255,0.5) 70%, rgba(18,94,138,0.5) 100%);
   font-family: 'Open Sans Condensed', sans-serif;
-  color: #393E46;
+  color: #222831;
   font-size: 16px;
   text-align: center;
 }
@@ -69,7 +68,6 @@ p {
 }
 .btn-contact:hover {
   opacity: 80%;
-  color: white;
   padding: 12px 18px;
   border-radius: 4px;
 }
