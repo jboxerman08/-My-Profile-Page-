@@ -18,8 +18,3 @@
   -o-transform: scale(1.2);
   transform: scale(1.2);
 }
-.img-logo {
-  width: 30px;
-  height: 30px;
-  position: sticky;
-}
