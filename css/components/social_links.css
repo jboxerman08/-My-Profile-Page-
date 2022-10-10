@@ -1,0 +1,32 @@
+.social-links {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  grid-gap: 16px;
+}
+
+.li {
+  display: list-item;
+}
+
+.social-links i {
+  font-size: 32px;
+  color: #D4D2D5;
+}
+
+.social-links i:hover {
+  color: #FA8334;
+}
+
+.social-links>li {
+  display: inline-block;
+  padding: 0;
+}
+
+@media only screen and (max-width: 600px) {
+  .social-links {
+    grid-gap: 0;
+  }
+}

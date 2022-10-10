@@ -1,0 +1,40 @@
+.about-me {
+  display: flex;
+  width: 75%;
+}
+
+.about-me__image-container {
+  width: 45%;
+  height: fit-content;
+  border-radius: 50%;
+  background-color: rgb(255, 255, 255);
+}
+
+.about-me__image {
+  width: 140%;
+  border-radius: 16%;
+  position: relative;
+  top: 20px;
+  right: 1px;
+  filter: grayscale(100%);
+  transition: 0.3s;
+}
+
+.about-me__image:hover {
+  filter: grayscale(0%);
+  transition: 0.3s;
+  transform: scale(1.1);
+}
+
+.about-me__content {
+  width: 50%;
+  padding-left: 200px;
+}
+
+.about-me__title {
+  border-bottom: 1px solid white;
+}
+
+.about-me__text {
+  margin-bottom: 44px;
+}

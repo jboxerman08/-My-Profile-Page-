@@ -14,14 +14,14 @@
 
 
 /* Projects Card Styling */
-
 .card-project {
-  overflow: hidden;
-  background: white;
-  box-shadow: 0 0 15px rgb(0 0 0 / 20%);
-  align-items: center;
+  width: 100%;
   margin-bottom: 24px;
+  overflow: hidden;
+  background-color: white;
+  box-shadow: 0 0 15px rgb(0 0 0 / 20%);
   border-radius: 4px;
+  text-align: center;
 }
 
 .card-project img {
@@ -66,4 +66,31 @@
 .card-project-infos {
   padding: 32px 16px 16px 16px;
   align-self: baseline;
+}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .card-container {
+    display: flex;
+    grid-gap: 16px;
+  }
+
+  .card-project {
+    width: 33%;
+  }
 }

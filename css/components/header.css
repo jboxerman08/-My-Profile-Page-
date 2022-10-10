@@ -1,0 +1,98 @@
+header {
+  padding: 20px 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.header-links {
+  display: flex;
+}
+
+.header-link {
+  padding: 0 8px;
+}
+
+.header-logo {
+  width: 40px;
+  height: 40px;
+}
+
+.switch {
+  width: 80px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: rgb(39, 39, 39);
+  position: relative;
+}
+
+.flicker {
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  box-shadow:
+    inset 4px 4px 4px rgb(255 255 255),
+    inset -4px -4px 4px rgb(195 193 198 / 90%);
+  transition: 0.3s;
+  z-index: 1000;
+}
+
+.moon {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  box-shadow: 4px 4px 0 0 rgb(255, 255, 0);
+  position: absolute;
+  top: 5px;
+  left: 45px;
+}
+
+.sun {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  box-shadow: 0 0 10px orange, 0 0 60px orange, 0 0 200px yellow, inset 0 0 80px yellow;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.dark {
+  background-color: rgb(57, 57, 57);
+  transition: 0.3s;
+}
+
+.dark h1 {
+  color: #D4D2D5;
+}
+
+.dark .flicker {
+  transform: translateX(40px);
+  transition: 0.3s;
+}
+
+@media only screen and (max-width: 600px) {
+  header {
+    padding: 20px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+}
+
+
+@media only screen and (min-width: 1200px) {
+  header {
+    padding: 20px 60px;
+  }
+}
