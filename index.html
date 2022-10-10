@@ -19,14 +19,14 @@
   </head>
 
   <body class="dark">
-    <header>
+    <header id="header">
       <img class="header-logo" src="images/jboxlogov2.png" alt="Logo">
       <div class="header-links">
         <a class="header-link" href="#introduction">About</a>
         <a class="header-link" href="#lewagon-projects">School</a>
         <a class="header-link">Work</a>
         <a class="header-link" href="#personal-projects">Projects</a>
-        <a href="mailto:jboxerman08@gmail.com" class="contact">Contact</a>
+        <a class="header-link" href="mailto:jboxerman08@gmail.com">Contact</a>
       </div>
       <!--
       <div class="switch">
@@ -37,10 +37,6 @@
     -->
     </header>
 
-    <p style="text-align: center; color: white;">
-      🛠 Portfolio under construction since Oct. 10, 2022 🛠<br/>
-      *Come back soon! You can still contact me if needed.*
-    </p>
     <section class="hero-banner">
       <div class="hero-banner__background"></div>
 
@@ -86,6 +82,13 @@
       </div>
     </section>
 
+    <h2 style="text-align: center; color: white; position: relative; top: -180px; margin: 0;">
+      Disclaimer: Website is currently since Oct.10, 2022
+    </h2>
+    <h2 style="text-align: center; color: white; position: relative; top: -180px; margin: 0;">
+      Come back soon! (You can still contact me 👨‍💻)
+    </h2>
+
     <section class="about-me section" id="introduction">
       <div class="about-me__image-container">
         <img class="about-me__image" src="images/lewagondiffjbcoffee2.png" alt="about me image">
@@ -93,10 +96,12 @@
       <div class="about-me__content">
         <h2 class="section__title">About me</h2>
         <p class="about-me__text">
-          Passionate about all things <strong>music</strong> and <strong>skateboarding</strong>. Having spent over 7 years
-          in the workforce as an assembler and quality assurance inspector, I realized I needed to change career paths. Driven
-          by my <strong>curiosity</strong> and <strong>passion</strong> for technology, I decided to dive into coding and
-          enrolled in Le Wagon’s web development bootcamp to pursue a career as a <strong>full stack developer</strong>!
+          Passionate about all things <strong>music</strong> and <strong>skateboarding</strong>.
+          Having spent over 7 years in the workforce as an assembler and quality assurance
+          inspector, I realized I needed to change career paths. Driven by my
+          <strong>curiosity</strong> and <strong>passion</strong> for technology, I decided
+          to dive into coding and enrolled in Le Wagon’s web development bootcamp to pursue
+          a career as a <strong>full stack developer</strong>!
         </p>
         <div class="fullstack-icons">
           <img class="icon" src="images/ruby_icon.png" alt="Ruby">
@@ -118,15 +123,17 @@
       <!-- Project 1: Watch List-->
       <div class="card-container">
         <div class="card-project">
+          <img class="card-project__image" src="https://res.cloudinary.com/jbox/image/upload/v1633129276/Screen_Shot_2021-10-01_at_6.59.58_PM_qlkvhm.png" />
           <div class="card-project-infos">
             <h2 class="card-project__title">
-              Watch List <br/> Create now, watch later!
+              Watch List
             </h2>
-            <img class="card-project__image" src="https://res.cloudinary.com/jbox/image/upload/v1633129276/Screen_Shot_2021-10-01_at_6.59.58_PM_qlkvhm.png" />
             <p class="card-project__description">
-              The goal of this challenge was an introduction to creating basic user movie lists/bookmarks. With the
-              implementation of <strong>cloudinary</strong>, the user has the option of uploading a personalized background for
-              their user-created list, choosing movies from a small selection of movies from the Movie DB through an <strong>API</strong>.
+              The goal of this challenge was an introduction to creating basic user
+              movie lists/bookmarks. With the implementation of <strong>cloudinary</strong>,
+              the user has the option of uploading a personalized background for
+              their user-created list, choosing movies from a small selection of movies
+              from the Movie DB through an <strong>API</strong>.
             </p>
             <p class="card-project__link">
             <a href="https://jbox-rails-watch-list.herokuapp.com/" target="_blank">CLICK HERE</a> to visit <strong>Watch
@@ -137,16 +144,19 @@
 
         <!-- Project 2: RentAMon -->
         <div class="card-project">
+          <img class="card-project__image" src="https://res.cloudinary.com/jbox/image/upload/v1632775302/Screen_Shot_2021-09-27_at_4.40.33_PM_gfsyqj.png" />
           <div class="card-project-infos">
             <h2 class="card-project__title">
-              RentAMon <br /> Your monument shipped anywhere in the world!
+              RentAMon
             </h2>
-            <img class="card-project__image" src="https://res.cloudinary.com/jbox/image/upload/v1632775302/Screen_Shot_2021-09-27_at_4.40.33_PM_gfsyqj.png" />
-            <p class="card-project__description">The goal of this project was to <strong>collaborate</strong> with other developers/classmates to recreate an
-              <strong>AirBNB clone</strong>. The project combined <strong>user authentification</strong> and
-              <strong>authorization</strong>, the implementation of a functional <strong>map</strong> with
-              <strong>location markers</strong> and <strong>search bar</strong> to find a monument for rent, with a basic
-              <strong>booking system</strong> that handles requests between a user and monument owner.
+            <p class="card-project__description">
+              The goal of this project was to <strong>collaborate</strong> with other
+              developers to create an AirBNB clone. The project combines
+              <strong>user authentification</strong> and <strong>authorization</strong>,
+              a functional <strong>map</strong> with <strong>location markers</strong> and
+              <strong>search bar</strong> to find a monument for rent, with a basic
+              <strong>booking system</strong> that handles requests between a user and
+              monument owner.
             </p>
             <p class="card-project__link">
               <a href="https://rentamon.herokuapp.com/" target="_blank">CLICK HERE</a> to visit <strong>RentAMon</strong>!
@@ -156,11 +166,11 @@
 
         <!-- Project 3: Clean Kut's -->
         <div class="card-project">
+          <img class="card-project__image" src="https://res.cloudinary.com/jbox/image/upload/v1636162103/ogimage_yb5cgs.png" />
           <div class="card-project-infos">
             <h2 class="card-project__title">
-              Clean Kut's <br /> Your Barber Around the Corner
+              Clean Kut's
             </h2>
-            <img class="card-project__image" src="https://res.cloudinary.com/jbox/image/upload/v1636162103/ogimage_yb5cgs.png" />
             <p class="card-project__description">
               The goal of the project was to create a fully functional app from start to finish as the final group
               project of the <strong>Le Wagon bootcamp</strong>. As a team, we created a <strong>mobile friendly</strong>
@@ -179,73 +189,91 @@
 
     </section>
 
+    <section class="lewagon-video section">
+      <iframe style="border-radius: 16px;" width="560" height="315" src="https://www.youtube.com/embed/crhe6BhkoFM"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+      </iframe>
+    </section>
 
-    <div class="container">
-      <!-- Side-Project -->
-      <div class="card-white" id="personal-projects">
-        <h1>Side-Projects</h1>
-        <!-- Project 1: Blender Donut Tutorial-->
-        <div class="card-project">
-          <div class="card-project-infos">
-            <h2>Blender "Donut Tutorial"</h2>
-            <img src="https://res.cloudinary.com/jbox/image/upload/v1633132678/Image_from_iOS_1_gchmr4.jpg"/>
-            <p>After wanting to learn how to make <strong>3D art</strong>, I came across a program called "<strong>Blender</strong>".
-              I then found a youtube content creator named <strong>Blender Guru</strong> and followed through his
-              popular "<strong>Donut tutorial</strong>", where you learn to make and create multiple objects and ultimately,
-              learn how to use Blender!</p>
-            <p><a href="https://www.youtube.com/watch?v=TPrnSACiTJ4" target="_blank">CLICK HERE</a> to watch
-              the <strong>"Donut tutorial"</strong>.</p>
-          </div>
-        </div>
-
-        <!-- Project 2: Holy Ghost Notes -->
-        <div class="card-project">
-          <div class="card-project-infos">
-            <h2>Holy Ghost Notes Podcast</h2>
-            <img src="https://res.cloudinary.com/jbox/image/upload/v1633364587/Image_from_iOS_3_xiwlzz.jpg" width="75%" />
-            <p>After working through most of the "Donut Tutorial", I wanted to experiment and create more 3D models/art.
-              I've been listening to the <strong>Holy Ghost Notes</strong> podcast since its inception in 2019, and I really
-              like their logo, so I tried recreating a <strong>3D render</strong> of it, as seen below.</p>
-              <iframe class="hgn-logo-video"
-                src="https://player.cloudinary.com/embed/?public_id=https%3A%2F%2Fres.cloudinary.com%2Fjbox%2Fvideo%2Fupload%2Fv1633129984%2FImage_from_iOS_c30yyy.mp4&cloud_name=HGN3DRender&player%5Bfluid%5D=true&player%5Bcontrols%5D=false&player%5Bmuted%5D=true&player%5Bautoplay_mode%5D=on-scroll&player%5Bautoplay%5D=true&player%5Bloop%5D=true&source%5Bsource_types%5D%5B0%5D=mp4"
-                width="492" height="277" allow="autoplay; fullscreen; encrypted-media; picture-in-picture" allowfullscreen
-                frameborder="0">
-              </iframe>
+    <section class="personal-projects section" id="personal-projects">
+      <h2 class="section__title">Personal Projects</h2>
+      <div class="personal-projects__content">
+        <p class="personal-projects__text">
+          <p>After wanting to learn how to make <strong>3D art</strong>, I came across a program called
+            "<strong>Blender</strong>".
+            I then found a youtube content creator named <strong>Blender Guru</strong> and followed through his
+            popular "<strong>Donut tutorial</strong>", where you learn to make and create multiple objects and ultimately,
+            learn how to use Blender!</p>
+          <p><a href="https://www.youtube.com/watch?v=TPrnSACiTJ4" target="_blank">CLICK HERE</a> to watch
+            the <strong>"Donut tutorial"</strong>.</p> <br/>
+          <p>After working through most of the "Donut Tutorial", I wanted to experiment and create more 3D models/art.
+            I've been listening to the <strong>Holy Ghost Notes</strong> podcast since its inception in 2019, and I really
+            like their logo, so I tried recreating a <strong>3D render</strong> of it, as seen below.</p>
             <p>
               <a href="https://theholyghostnotes.com/" target="_blank">CLICK HERE</a> to learn more about the
               <strong>Holy Ghost Notes Podcast</strong>!
             </p>
+        </p>
+        <div id="image-carousel-wrapper">
+          <div id="carousel">
+            <div class="carousel-image i1">
+              <img src="https://res.cloudinary.com/jbox/image/upload/v1633132678/Image_from_iOS_1_gchmr4.jpg">
+            </div>
+            <div class="carousel-image i2">
+              <iframe class="hgn-logo-video"
+              src="https://player.cloudinary.com/embed/?public_id=https%3A%2F%2Fres.cloudinary.com%2Fjbox%2Fvideo%2Fupload%2Fv1633129984%2FImage_from_iOS_c30yyy.mp4&cloud_name=HGN3DRender&player%5Bfluid%5D=true&player%5Bcontrols%5D=false&player%5Bmuted%5D=true&player%5Bautoplay_mode%5D=on-scroll&player%5Bautoplay%5D=true&player%5Bloop%5D=true&source%5Bsource_types%5D%5B0%5D=mp4"
+              width="492" height="277" allow="autoplay; fullscreen; encrypted-media; picture-in-picture" allowfullscreen
+              frameborder="0">
+              </iframe>
+            </div>
+            <div class="carousel-image i3">
+              <img src="images/ForestRoadIG.png">
+            </div>
+            <div class="carousel-image i4">
+              <img src="images/Cloud66CyclesRender2IG.png">
+            </div>
+            <div class="carousel-image i5">
+              <img src="images/AncientRuinsIG.png">
+            </div>
+            <div class="carousel-image i6">
+              <img src="images/HomeOfficeCyclesRenderIG.png">
+            </div>
+            <div class="carousel-image i7">
+              <img src="images/SunnyParkCycles.png">
+            </div>
+            <div class="carousel-image i8">
+              <img src="images/TikiShamanRender (1).png">
+            </div>
           </div>
         </div>
       </div>
+    </section>
 
-      <!-- Social Links -->
-      <div class="card-white" id="social-links">
-        <h2><strong>Personal Media Accounts</strong></h2>
-        <ul class="social-links">
-          <li>
-            <div class="icon"><a href="https://github.com/jboxerman08" target="_blank">
+    <footer>
+      <ul class="social-links">
+        <li>
+          <div class="icon"><a href="https://github.com/jboxerman08" target="_blank">
               <i class="fab fa-github"></i>
             </a></div>
-          </li>
-          <li>
-            <div class="icon"><a href="https://www.linkedin.com/in/jboxerman/" target="_blank">
+        </li>
+        <li>
+          <div class="icon"><a href="https://www.linkedin.com/in/jboxerman/" target="_blank">
               <i class="fab fa-linkedin-in"></i>
             </a></div>
-          </li>
-          <li>
-            <div class="icon"><a href="https://www.instagram.com/jboxerman/" target="_blank">
+        </li>
+        <li>
+          <div class="icon"><a href="https://www.instagram.com/jboxerman/" target="_blank">
               <i class="fab fa-instagram"></i>
             </a></div>
-          </li>
-          <li>
-            <div class="icon"><a href="https://www.youtube.com/c/JeremyBoxerman" target="_blank">
+        </li>
+        <li>
+          <div class="icon"><a href="https://www.youtube.com/c/JeremyBoxerman" target="_blank">
               <i class="fab fa-youtube"></i>
             </a></div>
-          </li>
-        </ul>
-      </div>
-    </div>
+        </li>
+      </ul>
+    </footer>
 
     <script src="scripts.js"></script>
   </body>

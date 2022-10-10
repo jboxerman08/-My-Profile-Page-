@@ -1,11 +1,11 @@
 header {
-  padding: 20px 60px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   position: sticky;
   top: 0;
   z-index: 1000;
+  transition: 0.3s;
 }
 
 .header-links {
@@ -93,6 +93,6 @@ header {
 
 @media only screen and (min-width: 1200px) {
   header {
-    padding: 20px 60px;
+    padding: 20px 180px;
   }
 }

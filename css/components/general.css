@@ -6,12 +6,12 @@ h1, h2, h3 {
 
 h1 {
   color: #222831;
-  font-size: 64px;
+  font-size: 46px;
 }
 
 h2 {
   color: #00ADB5;
-  font-size: 36px;
+  font-size: 32px;
   margin-bottom: 16px;
 }
 
@@ -54,7 +54,7 @@ a {
 
 .section {
   margin: 40px auto 100px;
-  width: 75%;
+  width: 80%;
 }
 
 .section__title {
@@ -63,12 +63,37 @@ a {
   margin-bottom: 36px;
 }
 
-@media only screen and (max-width: 600px) {
+#introduction, #lewagon-projects, #personal-projects {
+  padding-top: 100px;
+  margin-top: -100px;
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
   h1 {
-    font-size: 46px;
+    font-size: 64px;
   }
 
   h2 {
-    font-size: 32px;
+    font-size: 36px;
   }
+
+  .section {
+    width: 75%;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
 }
