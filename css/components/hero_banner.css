@@ -2,7 +2,7 @@
   display: block;
   position: relative;
   z-index: 1;
-  height: 75vh;
+  height: 80vh;
   justify-content: center;
   align-items: center;
   padding: 0 64px;
@@ -25,6 +25,16 @@
   filter: blur(4px);
 }
 
+.hidden {
+  display: none;
+}
+
+.hero-banner__glasses {
+  width: 191px;
+  z-index: 1000;
+  transition: 1s;
+}
+
 .hero-banner__image-container {
   width: 360px;
   border-radius: 50%;
@@ -33,17 +43,11 @@
 
 .hero-banner__image {
   width: 100%;
-  border-radius: 8%;
   position: relative;
+  border-radius: 8%;
   top: 24px;
   filter: grayscale(100%);
   transition: 0.3s;
-}
-
-.hero-banner__image:hover {
-  filter: grayscale(0%);
-  transition: 0.3s;
-  transform: scale(1.1);
 }
 
 .hero-banner__subtitle {
@@ -113,5 +117,24 @@
     border-bottom: 1px solid white;
     padding-bottom: 12px;
     margin-bottom: 36px;
+  }
+
+  .hero-banner__image-container {
+    height: 360px;
+  }
+
+  .hero-banner__image:hover {
+    filter: grayscale(0%);
+    transition: 0.3s;
+    transform: scale(1.1);
+  }
+
+  .hero-banner__image:hover+.hidden {
+    display: block;
+    position: relative;
+    rotate: 4deg;
+    transition: 1s;
+    top: -256px;
+    left: 84px;
   }
 }
