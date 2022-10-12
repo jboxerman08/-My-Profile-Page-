@@ -14,15 +14,8 @@
   -o-transition: -o-perspective, 1s;
   -moz-transition: -moz-perspective, 1s;
   -webkit-transition: -webkit-perspective, 1s;
+  overflow-x: clip;
 }
-
-#carousel:hover {
-  animation-play-state: paused;
-  -o-animation-play-state: paused;
-  -moz-animation-play-state: paused;
-  -webkit-animation-play-state: paused;
-}
-
 
 @-webkit-keyframes spin {
   from {
@@ -138,7 +131,16 @@
   transition: 0.5s;
 }
 
-.carousel-image img:hover {
-  transform: scale(1.4);
-  transition: 0.5s;
+@media only screen and (min-width: 1200px) {
+  #carousel:hover {
+    animation-play-state: paused;
+    -o-animation-play-state: paused;
+    -moz-animation-play-state: paused;
+    -webkit-animation-play-state: paused;
+  }
+
+  .carousel-image img:hover {
+    transform: scale(1.4);
+    transition: 0.5s;
+  }
 }

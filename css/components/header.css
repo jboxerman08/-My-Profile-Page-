@@ -6,7 +6,7 @@ header {
   top: -1px;
   z-index: 1000;
   transition: 0.3s;
-  padding: 20px;
+  padding: 20px 10px;
 }
 
 .header-links {
@@ -18,8 +18,8 @@ header {
 }
 
 .header-logo {
-  width: 40px;
-  height: 40px;
+  width: 32px;
+  height: 32px;
 }
 
 .switch {
@@ -79,15 +79,10 @@ header {
   transition: 0.3s;
 }
 
-@media only screen and (max-width: 600px) {
-  header {
-    padding: 20px 10px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: sticky;
-    top: 0;
-    z-index: 1000;
+@media only screen and (min-width: 600px) {
+  .header-logo {
+    width: 40px;
+    height: 40px;
   }
 }
 
