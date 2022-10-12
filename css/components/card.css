@@ -92,4 +92,8 @@
   .card-project {
     width: 33%;
   }
+
+  .card-project-infos {
+    padding: 36px;
+  }
 }

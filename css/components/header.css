@@ -3,9 +3,10 @@ header {
   justify-content: space-between;
   align-items: center;
   position: sticky;
-  top: 0;
+  top: -1px;
   z-index: 1000;
   transition: 0.3s;
+  padding: 20px;
 }
 
 .header-links {
@@ -94,5 +95,11 @@ header {
 @media only screen and (min-width: 1200px) {
   header {
     padding: 20px 180px;
+  }
+}
+
+@media only screen and (min-width: 1900px) {
+  header {
+    padding: 20px 240px;
   }
 }

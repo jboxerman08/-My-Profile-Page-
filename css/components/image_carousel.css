@@ -6,7 +6,7 @@
 #image-carousel-wrapper {
   perspective: 2500;
   -webkit-perspective: 2500;
-  width: 800px;
+  width: 100%;
   margin: 100px auto 100px;
   perspective-origin: 50% 150px;
   -webkit-perspective-origin: 50% 150px;

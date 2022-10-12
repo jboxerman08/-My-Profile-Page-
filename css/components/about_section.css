@@ -66,4 +66,20 @@
 @media only screen and (min-width: 992px) {}
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {}
+@media only screen and (min-width: 1200px) {
+  .about-me__image-container {
+    width: 35%;
+  }
+}
+
+@media only screen and (min-width: 1600px) {
+  .about-me__image {
+    width: 130%;
+  }
+}
+
+@media only screen and (min-width: 1900px) {
+  .about-me__image {
+    width: 120%;
+  }
+}
