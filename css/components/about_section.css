@@ -46,8 +46,10 @@
   }
 
   .about-me__content {
-    width: 45%;
-    padding-left: 220px;
+    width: 40%;
+    padding: 50px 130px;
+    border: 1px solid white;
+    border-radius: 16px;
   }
 
   .about-me__text {
@@ -68,7 +70,12 @@
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
   .about-me__image-container {
-    width: 35%;
+    margin-right: 72px;
+  }
+
+  .about-me__content {
+    width: 50%;
+    padding: 50px 120px;
   }
 }
 
