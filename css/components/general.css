@@ -23,7 +23,7 @@ p {
 
 body {
   background-color: rgb(57, 57, 57);
-  background: radial-gradient(circle, rgba(101, 216, 239, 0.5) 0%, rgba(0, 212, 255, 0.5) 50%, rgba(18, 94, 138, 0.5) 100%);
+  background: radial-gradient(circle, rgba(101, 216, 239, 0.5) 0%, rgba(0, 212, 255, 0.5) 10%, rgba(18, 94, 138, 1) 50%);
   font-family: 'Open Sans Condensed', sans-serif;
   color: #222831;
   font-size: 16px;
