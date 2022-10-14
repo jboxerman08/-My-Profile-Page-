@@ -1,3 +1,4 @@
+// Flicker switch for light/dark
 // const switchElement = document.querySelector('.switch')
 
 // switchElement.addEventListener('click', () => {
@@ -10,12 +11,11 @@ window.onscroll = function () { scrollFunction() };
 
 function scrollFunction() {
   if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
-    document.getElementById("header").style.backgroundColor = "#222831";
+    document.querySelector(".header").style.backgroundColor = "#222831";
   } else {
-    document.getElementById("header").style.backgroundColor = "transparent";
+    document.querySelector(".header").style.backgroundColor = "transparent";
   }
 }
-
 
 
 // Image gallery
