@@ -1,0 +1,7 @@
+.personal-projects__content {
+  display: flex;
+}
+
+.personal-projects__text {
+  padding-right: 100px;
+}

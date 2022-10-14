@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:200');
+
 /* Text Styling */
 h1, h2, h3 {
   font-family: 'Yanone Kaffeesatz', sans-serif;
@@ -7,6 +9,31 @@ h1, h2, h3 {
 h1 {
   color: #222831;
   font-size: 46px;
+}
+
+h1::before {
+  transform: scaleX(0);
+  transform-origin: bottom right;
+  height: 120px;
+}
+
+h1:hover::before {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+h1::before {
+  content: " ";
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  inset: 270px 0 0 0;
+  background: rgb(16, 89, 125);
+  z-index: -1;
+  transition: transform .3s ease;
 }
 
 h2 {
@@ -24,8 +51,8 @@ p {
 body {
   background-color: rgb(57, 57, 57);
   background: radial-gradient(circle, rgba(101, 216, 239, 0.5) 0%, rgba(0, 212, 255, 0.5) 10%, rgba(18, 94, 138, 1) 50%);
-  font-family: 'Open Sans Condensed', sans-serif;
-  color: #222831;
+  font-family: 'Raleway', sans-serif;
+  color: #D4D2D5;
   font-size: 16px;
   transition: 0.3s;
   margin: 0;
@@ -42,16 +69,10 @@ a {
   transition: all 0.3s ease-in-out;
 }
 
-/* a:hover {
+a:hover {
   font-weight: bold;
-  -webkit-transform: scale(1.1);
-  -moz-transform: scale(1.1);
-  -ms-transform: scale(1.1);
-  -o-transform: scale(1.1);
-  transform: scale(1.1);
   font-size: 18px;
-} */
-
+}
 .section {
   margin: 40px auto 100px;
   width: 80%;

@@ -1,7 +1,6 @@
 /* Main CSS Sheet - Text/Link styling + Responsiveness */
 
 /* Import components stylesheets */
-@import url("components/about_section.css");
 @import url("components/avatar.css");
 @import url("components/button.css");
 @import url("components/card.css");
@@ -10,8 +9,10 @@
 @import url("components/header.css");
 @import url("components/hero_banner.css");
 @import url("components/icon.css");
-@import url("components/image_carousel.css");
-@import url("components/lewagon_video_section.css");
+@import url("components/image_gallery.css");
+@import url("components/section_about.css");
+@import url("components/section_lewagon_video.css");
+@import url("components/section_personal_projects.css");
 @import url("components/social_links.css");
 
 
