@@ -18,7 +18,7 @@ function scrollFunction() {
 
 
 
-// Image galley test
+// Image gallery
 const current = document.querySelector('#current');
 const imgs = document.querySelector('.imgs');
 const img = document.querySelectorAll('.imgs img');

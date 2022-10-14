@@ -16,51 +16,17 @@
 @import url("components/social_links.css");
 
 
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
 
-/* Responsiveness */
-@media (max-width: 900px) {
-  /* For a screen < 900px, this CSS will be read */
-}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
 
-@media (max-width: 750px) {
-  /* For a screen < 750px, this CSS will be read */
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
 
-  .hgn-logo-video {
-    width: 410px;
-    height: 231px;
-  }
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}
 
-  .fullstack-icons {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    justify-content: center;
-  }
-}
-
-@media (max-width: 640px) {
-  /* For a screen < 640px, this CSS will be read */
-  .card-white {
-    padding: 32px 20px;
-  }
-
-  .hgn-logo-video {
-    width: 290px;
-    height: 163px;
-  }
-}
-
-@media (max-width: 420px) {
-  /* For a screen < 420px, this CSS will be read */
-  .hgn-logo-video {
-    width: 256px;
-    height: 144px;
-  }
-}
-
-@media (max-width: 375px) {
-  /* For a screen < 375px, this CSS will be read */
-  .hgn-logo-video {
-    width: 220px;
-    height: 124px;
-  }
-}
+/* Large screens (desktops and large screens, 1800px and up) */
+@media only screen and (min-width: 1800px) {}
