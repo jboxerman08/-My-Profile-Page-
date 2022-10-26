@@ -11,31 +11,6 @@ h1 {
   font-size: 46px;
 }
 
-h1::before {
-  transform: scaleX(0);
-  transform-origin: bottom right;
-  height: 120px;
-}
-
-h1:hover::before {
-  transform: scaleX(1);
-  transform-origin: bottom left;
-}
-
-h1::before {
-  content: " ";
-  display: block;
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  inset: 270px 0 0 0;
-  background: rgb(16, 89, 125);
-  z-index: -1;
-  transition: transform .3s ease;
-}
-
 h2 {
   color: #00ADB5;
   font-size: 32px;
@@ -69,10 +44,30 @@ a {
   transition: all 0.3s ease-in-out;
 }
 
-a:hover {
-  font-weight: bold;
-  font-size: 18px;
+.header-link {
+  display: inline-block;
+  position: relative;
 }
+
+.header-link:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: -8px;
+  left: 0;
+  background-color: #0087ca;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.header-link:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+
 .section {
   margin: 40px auto 100px;
   width: 80%;
