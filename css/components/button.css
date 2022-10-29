@@ -1,23 +1,21 @@
 /* Button Styling */
-
-.btn-contact {
-  background-color: #125E8A;
-  color: white;
-  padding: 14px 20px;
-  border-radius: 4px;
-  margin-top: 16px;
-  -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  -ms-transition: all 0.3s ease-in-out;
-  -o-transition: all 0.3s ease-in-out;
+.btn-cv {
+  display: flex;
+  align-items: center;
+  margin: 16px auto 0;
+  padding: 10px 16px;
+  border-radius: 8px;
   transition: all 0.3s ease-in-out;
+  cursor: pointer;
 }
-.btn-contact:hover {
+
+.btn-cv:hover {
   opacity: 80%;
-  padding: 16px 22px;
-  -webkit-transform: scale(1.3);
-  -moz-transform: scale(1.3);
-  -ms-transform: scale(1.3);
-  -o-transform: scale(1.3);
-  transform: scale(1.3);
+  transform: scale(1.1);
+}
+
+.btn-svg {
+  width: 16px;
+  height: 16px;
+  padding-left: 8px;
 }
