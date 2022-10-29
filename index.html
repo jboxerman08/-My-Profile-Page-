@@ -24,7 +24,7 @@
       <!-- <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label> -->
       <div class="header-links">
         <a class="header-link" href="#introduction">About</a>
-        <a class="header-link" href="#lewagon-projects">School</a>
+        <a class="header-link" href="#school">School</a>
         <a class="header-link" href="#work-projects">Work</a>
         <a class="header-link" href="#personal-projects">Projects</a>
         <a class="header-link" href="mailto:jboxerman08@gmail.com">Contact</a>
@@ -92,13 +92,18 @@
       <div class="about-me__content">
         <h2 class="section__title">About me</h2>
         <p class="about-me__text">
-          Passionate about all things <strong>music</strong> and <strong>skateboarding</strong>.
-          Having spent over 7 years in the workforce as an assembler and quality assurance
-          inspector, I realized I needed to change career paths. Driven by my
-          <strong>curiosity</strong> and <strong>passion</strong> for technology, I decided
-          to dive into coding and enrolled in Le Wagon’s web development bootcamp to pursue
-          a career as a <strong>full stack developer</strong>!
+          Working on it... 👨‍💻
         </p>
+      </div>
+    </section>
+
+    <section class="school-projects section" id="school">
+      <h2 class="section__title">School - Lewagon Coding Bootcamp Projects</h2>
+
+      <div class="school-info">
+        <p class="school-info__story">Having spent over 7 years in the workforce as an experienced assembler and quality assurance inspector, I made the career switch towards web development, graduating from the Le Wagon Coding Bootcamp in November 2011 as a full-stack developer.</p>
+        <p class="school-info__story">Driven by curiosity and a passion for technology, I decided to dive into coding and explore the endless possibilities coding offers. This change has allowed me to start working at Diff Agency as of November 2011, joining the front-end development team.</p>
+        <p class="school-info__lewagon">Throughout the Le Wagon journey, we learned how to code several projects using a diversified stack, with a focus on Ruby/Ruby on Rails:</p>
         <div class="fullstack-icons">
           <img class="icon" src="images/fullstack-icons/ruby_icon.png" alt="Ruby">
           <img class="icon" src="images/fullstack-icons/postgresql_icon.png" alt="PostgreSQL">
@@ -112,86 +117,49 @@
           <img class="icon" src="images/fullstack-icons/heroku_original_wordmark_logo.png" alt="Heroku icon">
         </div>
       </div>
-    </section>
 
-    <section class="lewagon-projects section" id="lewagon-projects">
-      <h2 class="section__title">School Projects - Lewagon Coding Bootcamp</h2>
-      <!-- Project 1: Watch List-->
       <div class="card-container">
+        <!-- Project 1: Watch List-->
         <div class="card-project">
           <img class="card-project__image" src="https://res.cloudinary.com/jbox/image/upload/v1633129276/Screen_Shot_2021-10-01_at_6.59.58_PM_qlkvhm.png" />
-          <div class="card-project-infos">
-            <div class="card-project-infos__title">
-              <h2 class="card-project__title">
-                Watch List
-              </h2>
+          <div class="card-project__content">
+            <div class="card-project__infos">
+              <h2 class="card-project__title">Watch List</h2>
+              <p class="card-project__description">The goal of this challenge was an introduction to creating basic user movie lists/bookmarks. With the implementation of <strong>cloudinary</strong>, the user has the option of uploading a personalized background for their user-created list, choosing movies from a small selection of movies from the Movie DB through an <strong>API</strong>.</p>
             </div>
-            <div class="card-project-infos__description">
-              <p class="card-project__description">
-                The goal of this challenge was an introduction to creating basic user
-                movie lists/bookmarks. With the implementation of <strong>cloudinary</strong>,
-                the user has the option of uploading a personalized background for
-                their user-created list, choosing movies from a small selection of movies
-                from the Movie DB through an <strong>API</strong>.
-              </p>
-            </div>
+            <p class="card-project__link">
+            <a href="https://jbox-rails-watch-list.herokuapp.com/" target="_blank">Visit</a> <strong>Watch
+              List</strong>!
+            </p>
           </div>
-          <p class="card-project__link">
-          <a href="https://jbox-rails-watch-list.herokuapp.com/" target="_blank">Visit</a> <strong>Watch
-            List</strong>!
-          </p>
         </div>
 
-      <!-- Project 2: RentAMon -->
+        <!-- Project 2: RentAMon -->
         <div class="card-project">
           <img class="card-project__image" src="https://res.cloudinary.com/jbox/image/upload/v1632775302/Screen_Shot_2021-09-27_at_4.40.33_PM_gfsyqj.png" />
-          <div class="card-project-infos">
-            <div class="card-project-infos__title">
-              <h2 class="card-project__title">
-                RentAMon
-              </h2>
+          <div class="card-project__content">
+            <div class="card-project__infos">
+              <h2 class="card-project__title">RentAMon</h2>
+              <p class="card-project__description">The goal of this project was to <strong>collaborate</strong> with other developers to create an AirBNB clone. The project combines <strong>user authentification</strong> and <strong>authorization</strong>, a functional <strong>map</strong> with <strong>location markers</strong> and <strong>search bar</strong> to find a monument for rent, with a basic <strong>booking system</strong> that handles requests between a user and monument owner.</p>
             </div>
-            <div class="card-project-infos__description">
-              <p class="card-project__description">
-                The goal of this project was to <strong>collaborate</strong> with other
-                developers to create an AirBNB clone. The project combines
-                <strong>user authentification</strong> and <strong>authorization</strong>,
-                a functional <strong>map</strong> with <strong>location markers</strong> and
-                <strong>search bar</strong> to find a monument for rent, with a basic
-                <strong>booking system</strong> that handles requests between a user and
-                monument owner.
-              </p>
-            </div>
+            <p class="card-project__link">
+              <a href="https://rentamon.herokuapp.com/" target="_blank">Visit</a> <strong>RentAMon</strong>!
+            </p>
           </div>
-          <p class="card-project__link">
-            <a href="https://rentamon.herokuapp.com/" target="_blank">Visit</a> <strong>RentAMon</strong>!
-          </p>
         </div>
 
-      <!-- Project 3: Clean Kut's -->
+        <!-- Project 3: Clean Kut's -->
         <div class="card-project">
           <img class="card-project__image" src="https://res.cloudinary.com/jbox/image/upload/v1636162103/ogimage_yb5cgs.png" />
-          <div class="card-project-infos">
-            <div class="card-project-infos__title">
-              <h2 class="card-project__title">
-                Clean Kut's
-              </h2>
+          <div class="card-project__content">
+            <div class="card-project__infos">
+              <h2 class="card-project__title">Clean Kut's</h2>
+              <p class="card-project__description">The goal of the project was to create a fully functional app from start to finish as the final group project of the <strong>Le Wagon bootcamp</strong>. As a team, we created a <strong>mobile friendly</strong> app with <strong>different user profiles</strong>, displaying nearby barbers on a <strong>map</strong> with barber <strong>location markers</strong>. The client can view barber's schedule and book an appointment through a <strong>booking system</strong> that handles requests between a client and barber. Another feature that was implemented was a <strong>chat system</strong> where the barber and client can contact each other via <strong>direct messages</strong>.</p>
             </div>
-            <div class="card-project-infos__description">
-              <p class="card-project__description">
-                The goal of the project was to create a fully functional app from start to finish as the final group
-                project of the <strong>Le Wagon bootcamp</strong>. As a team, we created a <strong>mobile friendly</strong>
-                app with <strong>different user profiles</strong>, displaying nearby barbers on a <strong>map</strong>
-                with barber <strong>location markers</strong>. The client can view barber's schedule and book an appointment
-                through a <strong>booking system</strong> that handles requests between a client and barber. Another
-                feature that was implemented was a <strong>chat system</strong> where the barber and client can contact
-                each other via <strong>direct messages</strong>.
-              </p>
-            </div>
+            <p class="card-project__link">
+              <a href="http://www.cleankuts.com/" target="_blank">Visit</a> <strong>Clean Kut's</strong>!
+            </p>
           </div>
-          <p class="card-project__link">
-            <a href="http://www.cleankuts.com/" target="_blank">Visit</a> <strong>Clean Kut's</strong>!
-          </p>
         </div>
       </div>
     </section>
@@ -211,26 +179,23 @@
             After wanting to learn how to make <strong>3D art</strong>, I came across a program called
             "<strong>Blender</strong>". I then found a youtube content creator named <strong>Blender Guru</strong> and followed through his
             popular "<strong>Donut tutorial</strong>", where you learn to make and create multiple objects and ultimately,
-            learn how to use Blender! <br/>
-            <a href="https://www.youtube.com/watch?v=TPrnSACiTJ4" target="_blank">CLICK HERE</a> to watch
-            the <strong>"Donut tutorial"</strong>.
+            learn how to use Blender! <br/><br/>
+            <a href="https://www.youtube.com/watch?v=TPrnSACiTJ4" target="_blank">Watch</a> the <strong>"Donut tutorial"</strong>.
           </p>
           <br/>
           <p class="personal-projects__text-HGN">
             After working through most of the "Donut Tutorial", I started experimenting and tried to create more 3D models/art.
             I've been listening to the <strong>Holy Ghost Notes</strong> podcast since its inception in 2019, and I really
-            like their logo, so I worked on recreating a <strong>3D render</strong> of it. <br/>
-            <a href="https://theholyghostnotes.com/" target="_blank">CLICK HERE</a> to learn more about the
-            <strong>Holy Ghost Notes Podcast</strong>!
+            like their logo, so I worked on recreating a <strong>3D render</strong> of it. <br/><br/>
+            <a href="https://theholyghostnotes.com/" target="_blank">Learn more</a> about the <strong>Holy Ghost Notes Podcast</strong>!
           </p>
           <br />
           <p class="personal-projects__text-Polygon">
             After working on a few free tutorials from youtube and trying to make my own creations, I soon
             after made the plunge to deepen my skills with blender and bought a course through Polygun Runway.
             The content creator had showed up on my youtube feed and soon after signed up for his courses and
-            made most of the images in the gallery thanks to his course. <br/>
-            <a href="https://polygonrunway.com/" target="_blank">CLICK HERE</a> to go to
-            <strong>Polygun Runway's</strong> course!
+            made most of the images in the gallery thanks to his course. <br/><br/>
+            <a href="https://polygonrunway.com/" target="_blank">Learn more</a> about <strong>Polygun Runway's</strong> course!
           </p>
         </div>
 

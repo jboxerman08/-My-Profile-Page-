@@ -6,30 +6,29 @@
   background-color: white;
   box-shadow: 0 0 15px rgb(0 0 0 / 20%);
   border-radius: 12px;
-  text-align: center;
 }
 
 .card-project__image {
   width: 100%;
+  height: 250px;
+  object-position: center;
   object-fit: cover;
   border-radius: 4px;
   box-shadow: 0 0 15px rgb(0 0 0 / 20%);
-  -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  -ms-transition: all 0.3s ease-in-out;
-  -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
+  z-index: 10;
 }
 
 .card-project__image:hover {
-  -webkit-transform: scale(1.05);
-  -moz-transform: scale(1.05);
-  -ms-transform: scale(1.05);
-  -o-transform: scale(1.05);
   transform: scale(1.05);
 }
 
-.card-project-infos {
+.card-project__content {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-project__infos {
   text-align: left;
   padding: 24px 32px;
 }
@@ -49,23 +48,20 @@
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
+  .card-project {
+    display: flex;
+    transition: 0.3s;
+  }
+
+  .card-project__image {
+    width: 40%;
+    height: auto;
+  }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-  .card-container {
-    display: flex;
-    grid-gap: 32px;
-  }
-
-  .card-project {
-    display: flex;
-    flex-direction: column;
-    transition: 0.3s;
-    width: 33%;
-  }
-
-  .card-project-infos {
+  .card-project__infos {
     display: flex;
     flex-direction: column;
     height: 100%;
@@ -75,33 +71,29 @@
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
+
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
+  .card-project {
+    flex-direction: column;
+  }
+
   .card-container {
     display: flex;
     grid-gap: 32px;
   }
 
-  .card-project {
-    display: flex;
-    flex-direction: column;
-    transition: 0.3s;
-    width: 33%;
-    height: 724px;
+  .card-project__content {
+    display: contents;
   }
 
-  .card-project-infos {
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-    padding: 24px 32px;
+  .card-project__image {
+    width: 100%;
   }
 }
 
 @media only screen and (min-width: 1440px) {
-  .card-project {
-    height: 660px;
-  }
+
 }
