@@ -1,3 +1,1 @@
-My portfolio!
-
-Go to portfolio: https://www.boxerman.dev/
+To view portfolio: https://www.boxerman.dev/
