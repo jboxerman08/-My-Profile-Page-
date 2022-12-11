@@ -6,8 +6,8 @@
     <meta charset="utf-8">
 
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/jboxlogov2.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/jboxlogov2.png">
     <link rel="manifest" href="/site.webmanifest">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
@@ -17,246 +17,235 @@
     </style>
   </head>
 
-  <body class="dark">
-    <header class="header">
-      <a href="#home"><img class="header-logo" src="images/jboxlogov2.png" alt="Logo"></a>
-      <!-- <input class="menu-btn" type="checkbox" id="menu-btn" /> -->
-      <!-- <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label> -->
-      <div class="header-links">
-        <a class="header-link" href="#introduction">About</a>
-        <a class="header-link" href="#school">School</a>
-        <a class="header-link" href="#work-projects">Work</a>
-        <a class="header-link" href="#personal-projects">Projects</a>
-        <a class="header-link" href="mailto:jboxerman08@gmail.com">Contact</a>
+  <body>
+    <div class="spinner-container">
+      <div class="circles">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
       </div>
-      <!--
-      <div class="switch">
-        <div class="flicker"></div>
-        <div class="moon"></div>
-        <div class="sun"></div>
-      </div>
-    -->
-    </header>
+      <img class="portfolio-logo" src="images/jboxlogov2.png" alt="">
+    </div>
 
-    <section class="hero-banner">
-      <div class="hero-banner__background" loading="lazy"></div>
+    <div class="portfolio-content">
+      <!-- Hero banner section -->
+      <section class="hero-banner">
+        <!-- <div class="floating-background"></div> -->
+        <div class="hero-banner__background" loading="lazy"></div>
 
-      <div class="hero-banner__content">
-        <p class="hero-banner__disclaimer">* Note: Website is currently being reworked *</p>
-        <h1 class="hero-banner__title">Jeremy Boxerman</h1>
-        <h2 class="hero-banner__subtitle">Front End Web Developer</h2>
-        <div class="social-links-container">
-          <ul class="social-links">
-              <li>
-                <div class="icon">
-                  <a href="https://github.com/jboxerman08" target="_blank">
-                    <i class="fab fa-github"></i>
-                  </a>
-                </div>
-              </li>
-              <li>
-                <div class="icon">
-                  <a href="https://www.linkedin.com/in/jboxerman/" target="_blank">
-                    <i class="fab fa-linkedin-in"></i>
-                  </a>
-                </div>
-              </li>
-              <li>
-                <div class="icon">
-                  <a href="https://www.instagram.com/jboxerman/" target="_blank">
-                    <i class="fab fa-instagram"></i>
-                  </a>
-                </div>
-              </li>
-              <li>
-                <div class="icon">
-                  <a href="https://www.youtube.com/c/JeremyBoxerman" target="_blank">
-                    <i class="fab fa-youtube"></i>
-                  </a>
-                </div>
-              </li>
-          </ul>
+        <div class="hero-banner__content">
+          <h1 class="hero-banner__title">Jeremy Boxerman</h1>
+          <h2 class="hero-banner__subtitle">Front End Web Developer</h2>
+          <div class="social-links-container">
+            <ul class="social-links">
+                <li>
+                  <div class="icon">
+                    <a href="https://github.com/jboxerman08" target="_blank">
+                      <i class="fab fa-github"></i>
+                    </a>
+                  </div>
+                </li>
+                <li>
+                  <div class="icon">
+                    <a href="https://www.linkedin.com/in/jboxerman/" target="_blank">
+                      <i class="fab fa-linkedin-in"></i>
+                    </a>
+                  </div>
+                </li>
+                <li>
+                  <div class="icon">
+                    <a href="https://www.instagram.com/jboxerman/" target="_blank">
+                      <i class="fab fa-instagram"></i>
+                    </a>
+                  </div>
+                </li>
+                <li>
+                  <div class="icon">
+                    <a href="https://www.youtube.com/c/JeremyBoxerman" target="_blank">
+                      <i class="fab fa-youtube"></i>
+                    </a>
+                  </div>
+                </li>
+            </ul>
+          </div>
+          <a href="./jboxerman-cv-2022.pdf" target="_blank" download="jboxerman-cv-2022.pdf">
+            <button class="btn-cv">
+              Download CV
+              <img src="images/fullstack-icons/download.svg" alt="" class="btn-svg">
+            </button>
+          </a>
         </div>
-        <a href="./jboxerman-cv-2022.pdf" target="_blank" download="jboxerman-cv-2022.pdf">
-          <button class="btn-cv">
-            Download CV
-            <img src="images/fullstack-icons/download.svg" alt="" class="btn-svg">
-          </button>
-        </a>
-      </div>
 
-      <div class="hero-banner__image-container">
-        <img class="hero-banner__image" src="images/JBPortrait2NoBG.png" alt="portrait" loading="lazy">
-        <img src="images/sunglasses.png" alt="" class="hero-banner__glasses hidden">
-      </div>
-    </section>
-
-    <section class="about-me section" id="introduction">
-      <div class="about-me__image-container">
-        <img class="about-me__image" src="images/about-me-jb.png" alt="about me image" loading="lazy">
-      </div>
-      <div class="about-me__content">
-        <h2 class="section__title">About me</h2>
-        <p class="about-me__text">
-          Working on it... 👨‍💻
-        </p>
-      </div>
-    </section>
-
-    <section class="school-projects section" id="school">
-      <h2 class="section__title">School - Lewagon Coding Bootcamp Projects</h2>
-
-      <div class="school-info">
-        <p class="school-info__story">Having spent over 7 years in the workforce as an experienced assembler and quality assurance inspector, I made the career switch towards web development, graduating from the Le Wagon Coding Bootcamp in November 2011 as a full-stack developer.</p>
-        <p class="school-info__story">Driven by curiosity and a passion for technology, I decided to dive into coding and explore the endless possibilities coding offers. This change has allowed me to start working at Diff Agency as of November 2011, joining the front-end development team.</p>
-        <p class="school-info__lewagon">Throughout the Le Wagon journey, we learned how to code several projects using a diversified stack, with a focus on Ruby/Ruby on Rails:</p>
-        <div class="fullstack-icons">
-          <img class="icon" src="images/fullstack-icons/ruby_icon.png" alt="Ruby">
-          <img class="icon" src="images/fullstack-icons/postgresql_icon.png" alt="PostgreSQL">
-          <img class="icon" src="images/fullstack-icons/html5_5_five_icon.png" alt="HTML 5">
-          <img class="icon" src="images/fullstack-icons/css_icon.png" alt="CSS">
-          <img class="icon" src="images/fullstack-icons/bootstrap.png" alt="Bootstrap">
-          <img class="icon" src="images/fullstack-icons/javascript_icon.png" alt="Javascript">
-          <img class="icon" src="images/fullstack-icons/rails_ruby_icon.png" alt="Ruby on Rails">
-          <img class="icon" src="images/fullstack-icons/github_icon.png" alt="Github">
-          <img class="icon" src="images/fullstack-icons/git_icon.png" alt="Git">
-          <img class="icon" src="images/fullstack-icons/heroku_original_wordmark_logo.png" alt="Heroku icon">
+        <div class="hero-banner__image-container">
+          <img class="hero-banner__image" src="images/JBPortrait2NoBG.png" alt="portrait" loading="lazy">
+          <img src="images/sunglasses.png" alt="" class="hero-banner__glasses hidden">
         </div>
-      </div>
 
-      <div class="card-container">
-        <!-- Project 1: Watch List-->
-        <div class="card-project">
-          <img class="card-project__image" src="https://res.cloudinary.com/jbox/image/upload/v1633129276/Screen_Shot_2021-10-01_at_6.59.58_PM_qlkvhm.png" />
-          <div class="card-project__content">
-            <div class="card-project__infos">
-              <h2 class="card-project__title">Watch List</h2>
-              <p class="card-project__description">The goal of this challenge was an introduction to creating basic user movie lists/bookmarks. With the implementation of <strong>cloudinary</strong>, the user has the option of uploading a personalized background for their user-created list, choosing movies from a small selection of movies from the Movie DB through an <strong>API</strong>.</p>
+        <div class="hero-banner__scroll-icon">
+          <svg id="scrl-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 38.9">
+            <path class="scrl-body"
+              d="M12.8 38.4h-1.6C5.2 38.4.4 33.6.4 27.6V11.2C.4 5.2 5.2.4 11.2.4h1.6c6 0 10.8 4.8 10.8 10.8v16.5c0 5.9-4.8 10.7-10.8 10.7z" />
+            <path class="scrl-wheel"
+              d="M12 13.9a4.2 4.2 0 01-4.2-4.2V4.2C7.8 1.9 9.7 0 12 0c2.3 0 4.2 1.9 4.2 4.2v5.4a4.1 4.1 0 01-4.2 4.3z" />
+          </svg>
+          <p>scroll down</p>
+        </div>
+      </section>
+      <!-- Hero banner section end -->
+
+      <!-- Navbar section -->
+      <nav class="navbar">
+        <a href="#home"><img class="navbar-logo" src="images/jboxlogov2.png" alt="Logo"></a>
+        <div class="navbar-links">
+          <a class="navbar-link" href="#introduction">About</a>
+          <!-- <a class="navbar-link" href="#school">School</a> -->
+          <a class="navbar-link" href="#work-projects">Work</a>
+          <a class="navbar-link" href="#personal-projects">Projects</a>
+          <a class="navbar-link" href="mailto:jboxerman08@gmail.com">Contact</a>
+        </div>
+        <!--
+            <div class="switch">
+              <div class="flicker"></div>
+              <div class="moon"></div>
+              <div class="sun"></div>
             </div>
-            <p class="card-project__link">
-            <a href="https://jbox-rails-watch-list.herokuapp.com/" target="_blank">Visit</a> <strong>Watch
-              List</strong>!
+          -->
+      </nav>
+      <!-- Navbar section end -->
+
+      <!-- About me section -->
+      <section class="about-me section" id="introduction">
+        <div class="lewagon-video">
+          <iframe loading="lazy" src="https://www.youtube.com/embed/crhe6BhkoFM" title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+          </iframe>
+        </div>
+        <div class="about-me__content">
+          <h2 class="section__title">About me</h2>
+          <div class="about-me__text">
+            <p class="school-info__story">Having spent over 7 years in the workforce as an experienced assembler and quality
+              assurance inspector, I made the career switch towards web development, graduating from the Le Wagon Coding Bootcamp in
+              November 2021 as a full-stack developer.</p>
+            <p class="school-info__story">Driven by curiosity and a passion for technology, I decided to dive into coding and
+              explore the endless possibilities coding offers. This change has allowed me to start working at Diff Agency as of
+              November 2021, joining the front-end development team.</p>
+            <p class="school-info__lewagon">Throughout the Le Wagon journey, we learned how to code several projects using a
+              diversified stack, with a focus on Ruby/Ruby on Rails:</p>
+          </div>
+          <div class="fullstack-icons">
+            <img class="icon" src="images/fullstack-icons/ruby_icon.png" alt="Ruby">
+            <img class="icon" src="images/fullstack-icons/postgresql_icon.png" alt="PostgreSQL">
+            <img class="icon" src="images/fullstack-icons/html5_5_five_icon.png" alt="HTML 5">
+            <img class="icon" src="images/fullstack-icons/css_icon.png" alt="CSS">
+            <img class="icon" src="images/fullstack-icons/bootstrap.png" alt="Bootstrap">
+            <img class="icon" src="images/fullstack-icons/javascript_icon.png" alt="Javascript">
+            <img class="icon" src="images/fullstack-icons/rails_ruby_icon.png" alt="Ruby on Rails">
+            <img class="icon" src="images/fullstack-icons/github_icon.png" alt="Github">
+            <img class="icon" src="images/fullstack-icons/git_icon.png" alt="Git">
+            <img class="icon" src="images/fullstack-icons/heroku_original_wordmark_logo.png" alt="Heroku icon">
+          </div>
+        </div>
+      </section>
+      <!-- About me section end -->
+
+
+      <!-- Lewagon video section -->
+      <section class="work section" id="work-projects">
+
+      </section>
+      <!-- Lewagon video section end -->
+
+
+      <!-- Personal projects section -->
+      <section class="personal-projects section" id="personal-projects">
+        <div class="personal-projects__content">
+          <div class="personal-projects__text">
+            <h2 class="section__title">Personal Projects</h2>
+            <p class="personal-projects__text-Donut">
+              After wanting to learn how to make <strong>3D art</strong>, I came across a program called
+              "<strong>Blender</strong>". I then found a youtube content creator named <strong>Blender Guru</strong> and followed through his
+              popular "<strong>Donut tutorial</strong>", where you learn to make and create multiple objects and ultimately,
+              learn how to use Blender! <br/><br/>
+              <a href="https://www.youtube.com/watch?v=TPrnSACiTJ4" target="_blank">Watch</a> the <strong>"Donut tutorial"</strong>.
+            </p>
+            <br/>
+            <p class="personal-projects__text-HGN">
+              After working through most of the "Donut Tutorial", I started experimenting and tried to create more 3D models/art.
+              I've been listening to the <strong>Holy Ghost Notes</strong> podcast since its inception in 2019, and I really
+              like their logo, so I worked on recreating a <strong>3D render</strong> of it. <br/><br/>
+              <a href="https://theholyghostnotes.com/" target="_blank">Learn more</a> about the <strong>Holy Ghost Notes Podcast</strong>!
+            </p>
+            <br />
+            <p class="personal-projects__text-Polygon">
+              After working on a few free tutorials from youtube and trying to make my own creations, I soon
+              after made the plunge to deepen my skills with blender and bought a course through Polygun Runway.
+              The content creator had showed up on my youtube feed and soon after signed up for his courses and
+              made most of the images in the gallery thanks to his course. <br/><br/>
+              <a href="https://polygonrunway.com/" target="_blank">Learn more</a> about <strong>Polygun Runway's</strong> course!
             </p>
           </div>
-        </div>
 
-        <!-- Project 2: RentAMon -->
-        <div class="card-project">
-          <img class="card-project__image" src="https://res.cloudinary.com/jbox/image/upload/v1632775302/Screen_Shot_2021-09-27_at_4.40.33_PM_gfsyqj.png" />
-          <div class="card-project__content">
-            <div class="card-project__infos">
-              <h2 class="card-project__title">RentAMon</h2>
-              <p class="card-project__description">The goal of this project was to <strong>collaborate</strong> with other developers to create an AirBNB clone. The project combines <strong>user authentification</strong> and <strong>authorization</strong>, a functional <strong>map</strong> with <strong>location markers</strong> and <strong>search bar</strong> to find a monument for rent, with a basic <strong>booking system</strong> that handles requests between a user and monument owner.</p>
+          <div class="personal-projects__image-gallery">
+            <div class="personal-projects__main-img">
+              <img src="images/blender-renders/DonutTutorial.png" id="current-img">
             </div>
-            <p class="card-project__link">
-              <a href="https://rentamon.herokuapp.com/" target="_blank">Visit</a> <strong>RentAMon</strong>!
-            </p>
-          </div>
-        </div>
 
-        <!-- Project 3: Clean Kut's -->
-        <div class="card-project">
-          <img class="card-project__image" src="https://res.cloudinary.com/jbox/image/upload/v1636162103/ogimage_yb5cgs.png" />
-          <div class="card-project__content">
-            <div class="card-project__infos">
-              <h2 class="card-project__title">Clean Kut's</h2>
-              <p class="card-project__description">The goal of the project was to create a fully functional app from start to finish as the final group project of the <strong>Le Wagon bootcamp</strong>. As a team, we created a <strong>mobile friendly</strong> app with <strong>different user profiles</strong>, displaying nearby barbers on a <strong>map</strong> with barber <strong>location markers</strong>. The client can view barber's schedule and book an appointment through a <strong>booking system</strong> that handles requests between a client and barber. Another feature that was implemented was a <strong>chat system</strong> where the barber and client can contact each other via <strong>direct messages</strong>.</p>
+            <div class="personal-projects__image-grid">
+              <img src="images/blender-renders/DonutTutorial.png">
+              <img src="images/blender-renders/HGNLogo.png">
+              <img src="images/blender-renders/ABRFrontCloser.png">
+              <img src="images/blender-renders/CreateMoreText.png">
+              <img src="images/blender-renders/StayCuriousText.png">
+              <img src="images/blender-renders/SushiTutorialIG.png">
+              <img src="images/blender-renders/ForestRoadIG.png">
+              <img src="images/blender-renders/Cloud66EeveeRender2IG.png">
+              <img src="images/blender-renders/AncientRuinsIG.png">
+              <img src="images/blender-renders/HomeOfficeCyclesRenderIG.png">
+              <img src="images/blender-renders/SunnyParkCycles.png">
+              <img src="images/blender-renders/TikiShamanRenderIGPost.png">
             </div>
-            <p class="card-project__link">
-              <a href="http://www.cleankuts.com/" target="_blank">Visit</a> <strong>Clean Kut's</strong>!
-            </p>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
+      <!-- Personal projects section end -->
 
-    <section class="lewagon-video section" id="work-projects">
-      <iframe loading="lazy" src="https://www.youtube.com/embed/crhe6BhkoFM"
-        title="YouTube video player" frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-      </iframe>
-    </section>
 
-    <section class="personal-projects section" id="personal-projects">
-      <div class="personal-projects__content">
-        <div class="personal-projects__text">
-          <h2 class="section__title">Personal Projects</h2>
-          <p class="personal-projects__text-Donut">
-            After wanting to learn how to make <strong>3D art</strong>, I came across a program called
-            "<strong>Blender</strong>". I then found a youtube content creator named <strong>Blender Guru</strong> and followed through his
-            popular "<strong>Donut tutorial</strong>", where you learn to make and create multiple objects and ultimately,
-            learn how to use Blender! <br/><br/>
-            <a href="https://www.youtube.com/watch?v=TPrnSACiTJ4" target="_blank">Watch</a> the <strong>"Donut tutorial"</strong>.
-          </p>
-          <br/>
-          <p class="personal-projects__text-HGN">
-            After working through most of the "Donut Tutorial", I started experimenting and tried to create more 3D models/art.
-            I've been listening to the <strong>Holy Ghost Notes</strong> podcast since its inception in 2019, and I really
-            like their logo, so I worked on recreating a <strong>3D render</strong> of it. <br/><br/>
-            <a href="https://theholyghostnotes.com/" target="_blank">Learn more</a> about the <strong>Holy Ghost Notes Podcast</strong>!
-          </p>
-          <br />
-          <p class="personal-projects__text-Polygon">
-            After working on a few free tutorials from youtube and trying to make my own creations, I soon
-            after made the plunge to deepen my skills with blender and bought a course through Polygun Runway.
-            The content creator had showed up on my youtube feed and soon after signed up for his courses and
-            made most of the images in the gallery thanks to his course. <br/><br/>
-            <a href="https://polygonrunway.com/" target="_blank">Learn more</a> about <strong>Polygun Runway's</strong> course!
-          </p>
+      <!-- Footer section -->
+      <footer class="footer section">
+        <ul class="social-links">
+          <li>
+            <div class="icon"><a href="https://github.com/jboxerman08" target="_blank">
+                <i class="fab fa-github"></i>
+              </a></div>
+          </li>
+          <li>
+            <div class="icon"><a href="https://www.linkedin.com/in/jboxerman/" target="_blank">
+                <i class="fab fa-linkedin-in"></i>
+              </a></div>
+          </li>
+          <li>
+            <div class="icon"><a href="https://www.instagram.com/jboxerman/" target="_blank">
+                <i class="fab fa-instagram"></i>
+              </a></div>
+          </li>
+          <li>
+            <div class="icon"><a href="https://www.youtube.com/c/JeremyBoxerman" target="_blank">
+                <i class="fab fa-youtube"></i>
+              </a></div>
+          </li>
+        </ul>
+        <div class="footer__info">
+          <p class="footer__text">Thank you for visiting! Let's work together!</p>
+          <p class="footer__text">ⓒ Jeremy Boxerman</p>
         </div>
-
-        <div class="personal-projects__image-gallery">
-          <div class="personal-projects__main-img">
-            <img src="images/blender-renders/DonutTutorial.png" id="current-img">
-          </div>
-
-          <div class="personal-projects__image-grid">
-            <img src="images/blender-renders/DonutTutorial.png">
-            <img src="images/blender-renders/HGNLogo.png">
-            <img src="images/blender-renders/ABRFrontCloser.png">
-            <img src="images/blender-renders/CreateMoreText.png">
-            <img src="images/blender-renders/StayCuriousText.png">
-            <img src="images/blender-renders/SushiTutorialIG.png">
-            <img src="images/blender-renders/ForestRoadIG.png">
-            <img src="images/blender-renders/Cloud66EeveeRender2IG.png">
-            <img src="images/blender-renders/AncientRuinsIG.png">
-            <img src="images/blender-renders/HomeOfficeCyclesRenderIG.png">
-            <img src="images/blender-renders/SunnyParkCycles.png">
-            <img src="images/blender-renders/TikiShamanRenderIGPost.png">
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <footer class="footer section">
-      <ul class="social-links">
-        <li>
-          <div class="icon"><a href="https://github.com/jboxerman08" target="_blank">
-              <i class="fab fa-github"></i>
-            </a></div>
-        </li>
-        <li>
-          <div class="icon"><a href="https://www.linkedin.com/in/jboxerman/" target="_blank">
-              <i class="fab fa-linkedin-in"></i>
-            </a></div>
-        </li>
-        <li>
-          <div class="icon"><a href="https://www.instagram.com/jboxerman/" target="_blank">
-              <i class="fab fa-instagram"></i>
-            </a></div>
-        </li>
-        <li>
-          <div class="icon"><a href="https://www.youtube.com/c/JeremyBoxerman" target="_blank">
-              <i class="fab fa-youtube"></i>
-            </a></div>
-        </li>
-      </ul>
-      <div class="footer__info">
-        <p class="footer__text">Thank you for visiting! Let's work together!</p>
-        <p class="footer__text">ⓒ Jeremy Boxerman</p>
-      </div>
-    </footer>
-
+      </footer>
+      <!-- Footer section end -->
+    </div>
     <script src="scripts.js"></script>
   </body>
 </html>

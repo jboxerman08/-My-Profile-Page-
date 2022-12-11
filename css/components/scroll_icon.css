@@ -1,0 +1,56 @@
+#scrl-icon {
+  --clr: #ccc;
+  display: block;
+  width: 16px;
+  height: auto;
+  overflow: visible;
+  margin: 0 auto;
+}
+
+.scrl-body {
+  fill: none;
+  stroke: var(--clr);
+  stroke-linecap: round;
+  stroke-miterlimit: 10;
+  stroke-width: 3.5;
+  animation: scroll-parallax 1.5s cubic-bezier(.41, .07, .83, .67) infinite running
+}
+
+@keyframes scroll-parallax {
+  25% {
+    transform: translateY(0)
+  }
+
+  75% {
+    transform: translateY(-20%)
+  }
+}
+
+.scrl-wheel {
+  fill: var(--clr);
+  transform-origin: bottom;
+  animation: scroll-animation 1.5s linear infinite running;
+  will-change: transform;
+}
+
+@keyframes scroll-animation {
+  0% {
+    transform: translateY(-90%) scale(0.7, 0.1)
+  }
+
+  10% {
+    transform: translateY(-90%) scaleY(0.3)
+  }
+
+  25% {
+    transform: translateY(-20%) scaleY(1)
+  }
+
+  75% {
+    transform: translateY(40%) scaleY(1)
+  }
+
+  100% {
+    transform: translateY(20%) scale(0.8, 0.1);
+  }
+}

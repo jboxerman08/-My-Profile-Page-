@@ -6,17 +6,27 @@
 // })
 
 
-// When the user scrolls down passed the hero banner, make background of header change color
-window.onscroll = function () { scrollFunction() };
+const navbar = document.querySelector(".navbar");
+const navbarOffsetTop = navbar.offsetTop;
+const sections = document.querySelectorAll('section');
+const navbarLinks = document.querySelectorAll('.navbar-link');
 
-function scrollFunction() {
-  if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
-    document.querySelector(".header").style.backgroundColor = "#222831";
-  } else {
-    document.querySelector(".header").style.backgroundColor = "transparent";
-  }
+window.addEventListener('scroll', () => {
+  sections.forEach((section, i) => {
+    if (window.pageYOffset >= section.offsetTop - 10) {
+      navbarLinks.forEach(navbarLink => {
+        navbarLink.classList.remove('change');
+      })
+      navbarLinks[i].classList.add('change');
+    }
+  })
+})
+
+window.onload = () => {
+  setTimeout(() => {
+    document.querySelector('body').classList.add('display');
+  }, 3000);
 }
-
 
 // Image gallery
 const currentImg = document.querySelector('#current-img');

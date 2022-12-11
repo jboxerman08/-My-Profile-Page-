@@ -2,46 +2,43 @@
   display: block;
   position: relative;
   z-index: 1;
-  height: 80vh;
+  height: 100vh;
   justify-content: center;
   align-items: center;
   padding: 0 64px;
-  margin-bottom: 140px;
+  overflow: hidden;
+  perspective: 100rem;
 }
 
 .hero-banner__background {
   position: absolute;
   z-index: -1;
-  top: -90px;
+  top: -4px;
   right: 0;
   width: 100%;
-  height: 130%;
+  height: 105%;
   opacity: 0.25;
-  background-image:
-    linear-gradient(to bottom,
-      rgba(255, 10, 10, 0.9) 10%,
+  background: linear-gradient(to bottom,
+      rgba(10, 145, 255, 0.9) 10%,
       rgba(64, 64, 64, 0) 60%,
-      rgba(18, 94, 138, 1) 100%),
-    url("../../images/herobannerbg.jpg");
+      rgba(18, 94, 138, 0.9) 100%),
+    url("../../images/herobannerbg.jpg") center no-repeat;
   background-size: cover;
   background-position: top;
   filter: blur(4px);
+  animation: bgScale 10s;
 }
 
 .hidden {
   display: none;
 }
 
-.hero-banner__glasses {
-  width: 191px;
-  z-index: 1000;
-  transition: 1s;
-}
-
 .hero-banner__image-container {
   width: 360px;
   border-radius: 50%;
   background-color: rgb(255, 255, 255);
+  opacity: 0;
+  animation: imgScale 1s .8s forwards;
 }
 
 .hero-banner__image {
@@ -51,25 +48,95 @@
   top: 24px;
   filter: grayscale(100%);
   transition: 0.3s;
+  opacity: 0;
+  animation: moveBanner 1s 1.5s forwards;
 }
+
+.hero-banner__glasses {
+  width: 191px;
+  z-index: 1000;
+  transition: 1s;
+}
+
+.hero-banner__title,
+.hero-banner__subtitle {
+  letter-spacing: 0.5px;
+}
+
+.hero-banner__title {
+  opacity: 0;
+  animation: moveBanner 1s .5s forwards;
+}
+
 
 .hero-banner__subtitle {
   border-bottom: 1px solid white;
   padding-bottom: 12px;
   margin-bottom: 36px;
+  opacity: 0;
+  animation: moveBanner 1s .7s forwards;
+}
+
+.social-links-container {
+  opacity: 0;
+  animation: moveBanner 1s 0.9s forwards;
+}
+
+.btn-cv {
+  opacity: 0;
+  animation: moveBanner 1s 1.2s forwards;
+}
+
+.hero-banner__scroll-icon {
+  position: absolute;
+  top: 90vh;
+  display: none;
+  opacity: 0;
+  animation: moveBanner 1s 2s forwards;
+
+}
+
+.hero-banner__scroll-icon p {
+  font-size: 12px;
+}
+
+@keyframes imgScale {
+  0% {
+    opacity: 0;
+    transform: scale(0);
+  }
+
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes bgScale {
+  0% {
+    transform: scale(1.3);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes moveBanner {
+  0% {
+    transform: translateY(40rem) rotateY(-40deg);
+  }
+
+  100% {
+    transform: translateY(0) rotateY(0);
+    opacity: 1;
+  }
 }
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   .hero-banner {
-    display: block;
-    position: relative;
-    z-index: 1;
-    height: 75vh;
-    justify-content: center;
-    align-items: center;
     padding: 40px 64px 0;
-    margin-bottom: 100px;
   }
 
   .hero-banner__content {
@@ -102,6 +169,10 @@
     text-align: center;
     padding-right: 60px;
   }
+
+  .hero-banner__scroll-icon {
+    display: block;
+  }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -112,12 +183,8 @@
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-  .hero-banner {
-    margin-bottom: 150px;
-  }
-
   .hero-banner__content {
-    padding-right: 170px;
+    padding-right: 140px;
   }
 
   .hero-banner__subtitle {

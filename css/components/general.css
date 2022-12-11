@@ -7,7 +7,7 @@ h1, h2, h3 {
 }
 
 h1 {
-  color: #222831;
+  color: #D4D2D5;
   font-size: 46px;
 }
 
@@ -23,14 +23,25 @@ p {
   opacity: .9;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: rgb(57, 57, 57);
-  background: radial-gradient(circle, rgba(101, 216, 239, 0.5) 0%, rgba(0, 212, 255, 0.5) 10%, rgba(18, 94, 138, 1) 50%);
   font-family: 'Raleway', sans-serif;
   color: #D4D2D5;
   font-size: 16px;
-  transition: 0.3s;
   margin: 0;
+  overflow-x: hidden;
+}
+
+.portfolio-content {
+  display: none;
+}
+
+.display .portfolio-content {
+  display: block;
 }
 
 a {
@@ -38,29 +49,6 @@ a {
   line-height: 8px;
   color: #FA8334;
   transition: all 0.3s ease-in-out;
-}
-
-.header-link {
-  display: inline-block;
-  position: relative;
-}
-
-.header-link:after {
-  content: '';
-  position: absolute;
-  width: 100%;
-  transform: scaleX(0);
-  height: 2px;
-  bottom: -8px;
-  left: 0;
-  background-color: #0087ca;
-  transform-origin: bottom right;
-  transition: transform 0.25s ease-out;
-}
-
-.header-link:hover:after {
-  transform: scaleX(1);
-  transform-origin: bottom left;
 }
 
 .section {
