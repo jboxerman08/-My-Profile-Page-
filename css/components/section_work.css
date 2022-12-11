@@ -1,0 +1,12 @@
+.work__img-text-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.work__img {
+  width: 20%;
+  height: 100%;
+  border-radius: 16px;
+  margin-right: 60px;
+  filter: grayscale(100%);
+}
