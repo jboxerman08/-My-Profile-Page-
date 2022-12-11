@@ -42,6 +42,8 @@ body {
 
 .display .portfolio-content {
   display: block;
+  overflow: hidden;
+  position: relative;
 }
 
 a {
@@ -94,9 +96,6 @@ a {
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-  .section {
-    margin-bottom: 150px;
-  }
 }
 
 @media only screen and (min-width: 1800px) {
