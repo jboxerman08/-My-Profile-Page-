@@ -3,6 +3,7 @@
 /* Import components stylesheets */
 @import url("components/avatar.css");
 @import url("components/button.css");
+@import url("components/card.css");
 @import url("components/footer.css");
 @import url("components/floating_background.css");
 @import url("components/general.css");

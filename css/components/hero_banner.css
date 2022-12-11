@@ -72,7 +72,8 @@
 .hero-banner__subtitle {
   border-bottom: 1px solid white;
   padding-bottom: 12px;
-  margin-bottom: 36px;
+  margin-bottom: 24px;
+  margin-top: 8px;
   opacity: 0;
   animation: moveBanner 1s .7s forwards;
 }
@@ -144,12 +145,6 @@
     padding: 36px 0;
   }
 
-  .hero-banner__subtitle {
-    border-bottom: 1px solid white;
-    padding-bottom: 12px;
-    margin-bottom: 36px;
-  }
-
   .hero-banner__image-container {
     width: 80%;
     max-width: 300px;
@@ -185,12 +180,6 @@
 @media only screen and (min-width: 1200px) {
   .hero-banner__content {
     padding-right: 140px;
-  }
-
-  .hero-banner__subtitle {
-    border-bottom: 1px solid white;
-    padding-bottom: 12px;
-    margin-bottom: 36px;
   }
 
   .hero-banner__image-container {
