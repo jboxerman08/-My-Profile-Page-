@@ -1,3 +1,1 @@
-My profile page!
-
-Click on the link to view: https://www.boxerman.dev/
+To view portfolio: https://www.boxerman.dev/
