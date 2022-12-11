@@ -3,7 +3,7 @@
   height: 200vw;
   background-color: rgba(50, 231, 255, 0.8);
   position: absolute;
-  bottom: -180vw;
+  bottom: -135vw;
   left: calc(50% - 100vw);
   border-radius: 45%;
   animation: rotate 30s infinite;
@@ -30,5 +30,47 @@
 
   100% {
     transform: rotate(360deg);
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  h1 {
+    font-size: 64px;
+  }
+
+  h2 {
+    font-size: 36px;
+  }
+
+  .section {
+    width: 75%;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .floating-background {
+    bottom: -160vw;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .floating-background {
+    bottom: -170vw;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .floating-background {
+    bottom: -180vw;
+  }
+}
+
+@media only screen and (min-width: 1800px) {
+  .floating-background {
+    bottom: -190vw;
   }
 }
