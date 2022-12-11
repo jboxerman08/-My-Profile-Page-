@@ -35,40 +35,26 @@
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-  h1 {
-    font-size: 64px;
-  }
-
-  h2 {
-    font-size: 36px;
-  }
-
-  .section {
-    width: 75%;
+  .floating-background {
+    bottom: -165vw;
   }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
   .floating-background {
-    bottom: -160vw;
+    bottom: -175vw;
   }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
   .floating-background {
-    bottom: -170vw;
+    bottom: -185vw;
   }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-  .floating-background {
-    bottom: -180vw;
-  }
-}
-
 @media only screen and (min-width: 1800px) {
   .floating-background {
     bottom: -190vw;

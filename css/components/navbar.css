@@ -2,14 +2,15 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  position: sticky;
-  top: -2px;
-  z-index: 1000;
   transition: 0.3s;
   padding: 16px 10px;
   background-color: #222831;
   box-shadow: 0.1rem 0.5rem 1rem rgb(42 42 42);
   margin-bottom: 60px;
+  position: sticky;
+  top: -2px;
+  left: 0;
+  z-index: 1000;
 }
 
 .navbar-logo {
