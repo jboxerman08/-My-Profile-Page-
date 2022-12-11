@@ -11,6 +11,8 @@
     <link rel="manifest" href="/site.webmanifest">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>
     @import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@500&family=Yanone+Kaffeesatz:wght@700&display=swap');
@@ -83,7 +85,6 @@
 
         <div class="hero-banner__image-container">
           <img class="hero-banner__image" src="images/JBPortrait2NoBG.png" alt="portrait" loading="lazy">
-          <img src="images/sunglasses.png" alt="" class="hero-banner__glasses hidden">
         </div>
 
         <div class="hero-banner__scroll-icon">
@@ -226,25 +227,46 @@
             </p>
           </div>
 
-          <div class="personal-projects__image-gallery">
-            <div class="personal-projects__main-img">
-              <img src="images/blender-renders/DonutTutorial.png" id="current-img" alt="Blender Guru's Donut tutorial render">
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="images/blender-renders/DonutTutorial.png" alt="Blender Guru's Donut tutorial render">
+              </div>
+              <div class="swiper-slide">
+                <img src="images/blender-renders/HGNLogo.png" alt="A 3d render of Holy Ghost Notes's logo">
+              </div>
+              <div class="swiper-slide">
+                <img src="images/blender-renders/ABRFrontCloser.png" alt="August Burns Red as snowmen playing a show in a Christmas setting">
+              </div>
+              <div class="swiper-slide">
+                <img src="images/blender-renders/CreateMoreText.png" alt="Polygon Runway's 'Create More' text lesson render">
+              </div>
+              <div class="swiper-slide">
+                <img src="images/blender-renders/StayCuriousText.png" alt="Polygon Runway's 'Stay Curious' text lesson render">
+              </div>
+              <div class="swiper-slide">
+                <img src="images/blender-renders/SushiTutorialIG.png" alt="Polygon Runway's sushi lesson render">
+              </div>
+              <div class="swiper-slide">
+                <img src="images/blender-renders/ForestRoadIG.png" alt="Polygon Runway's Forest road lesson render">
+              </div>
+              <div class="swiper-slide">
+                <img src="images/blender-renders/Cloud66EeveeRender2IG.png" alt="Polygon Runway's Cloud 66 lesson render">
+              </div>
+              <div class="swiper-slide">
+                <img src="images/blender-renders/AncientRuinsIG.png" alt="Polygon Runway's Ancient Ruins lesson render">
+              </div>
+              <div class="swiper-slide">
+                <img src="images/blender-renders/HomeOfficeCyclesRenderIG.png" alt="Polygon Runway's Home Office lesson render">
+              </div>
+              <div class="swiper-slide">
+                <img src="images/blender-renders/SunnyParkCycles.png" alt="Polygon Runway's Sunny Park lesson render">
+              </div>
+              <div class="swiper-slide">
+                <img src="images/blender-renders/TikiShamanRenderIGPost.png" alt="Polygon Runway's Tiki Shaman lesson render">
+              </div>
             </div>
-
-            <div class="personal-projects__image-grid">
-              <img src="images/blender-renders/DonutTutorial.png" alt="Blender Guru's Donut tutorial render">
-              <img src="images/blender-renders/HGNLogo.png" alt="A 3d render of Holy Ghost Notes's logo">
-              <img src="images/blender-renders/ABRFrontCloser.png" alt="August Burns Red as snowmen playing a show in a Christmas setting">
-              <img src="images/blender-renders/CreateMoreText.png" alt="Polygon Runway's 'Create More' text lesson render">
-              <img src="images/blender-renders/StayCuriousText.png" alt="Polygon Runway's 'Stay Curious' text lesson render">
-              <img src="images/blender-renders/SushiTutorialIG.png" alt="Polygon Runway's sushi lesson render">
-              <img src="images/blender-renders/ForestRoadIG.png" alt="Polygon Runway's Forest road lesson render">
-              <img src="images/blender-renders/Cloud66EeveeRender2IG.png" alt="Polygon Runway's Cloud 66 lesson render">
-              <img src="images/blender-renders/AncientRuinsIG.png" alt="Polygon Runway's Ancient Ruins lesson render">
-              <img src="images/blender-renders/HomeOfficeCyclesRenderIG.png" alt="Polygon Runway's Home Office lesson render">
-              <img src="images/blender-renders/SunnyParkCycles.png" alt="Polygon Runway's Sunny Park lesson render">
-              <img src="images/blender-renders/TikiShamanRenderIGPost.png" alt="Polygon Runway's Tiki Shaman lesson render">
-            </div>
+            <div class="swiper-pagination"></div>
           </div>
         </div>
       </section>
@@ -283,14 +305,15 @@
           </li>
         </ul>
         <div class="footer__info">
-          <p class="footer__text">Thank you for visiting! Let's work together!</p>
-          <p class="footer__text">ⓒ Jeremy Boxerman</p>
+          <p class="footer__text">Thank you for visiting! </p>
+          <p class="footer__text">ⓒ Jeremy Boxerman, 2022</p>
         </div>
         <div class="floating-background"></div>
       </footer>
       <!-- End of Footer section -->
 
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
     <script src="scripts.js"></script>
   </body>
 </html>

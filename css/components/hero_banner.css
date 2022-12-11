@@ -29,10 +29,6 @@
   animation: bgScale 10s;
 }
 
-.hidden {
-  display: none;
-}
-
 .hero-banner__image-container {
   width: 360px;
   border-radius: 50%;
@@ -50,12 +46,6 @@
   transition: 0.3s;
   opacity: 0;
   animation: moveBanner 1s 1.5s forwards;
-}
-
-.hero-banner__glasses {
-  width: 191px;
-  z-index: 1000;
-  transition: 1s;
 }
 
 .hero-banner__title,
@@ -142,7 +132,7 @@
 
   .hero-banner__content {
     text-align: center;
-    padding: 36px 0;
+    padding: 72px 0 36px;
   }
 
   .hero-banner__image-container {
@@ -190,14 +180,5 @@
     filter: grayscale(0%);
     transition: 0.3s;
     transform: scale(1.1);
-  }
-
-  .hero-banner__image:hover+.hidden {
-    display: block;
-    position: relative;
-    rotate: 4deg;
-    transition: 1s;
-    top: -256px;
-    left: 84px;
   }
 }
