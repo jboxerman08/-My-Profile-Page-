@@ -1,11 +1,26 @@
 /* Button Styling */
-.button--primary {
+.button {
   width: fit-content;
-  padding: 16px 32px;
-  border-radius: 32px;
   border: none;
   cursor: pointer;
   transition: all 0.3s ease-in-out;
+  font-family: 'Raleway', sans-serif;
+}
+
+.button--large {
+  padding: 16px 32px;
+  border-radius: 32px;
+}
+
+.button--small {
+  padding: 12px 24px;
+  border-radius: 24px;
+}
+
+.button:hover {
+  transform: scale(1.05);
+  color: #FA8334;
+  font-weight: bold;
 }
 
 .btn-cv {

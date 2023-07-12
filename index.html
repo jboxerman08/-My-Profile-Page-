@@ -37,9 +37,7 @@
     <div class="portfolio-content">
       <!-- Hero banner section -->
       <section class="hero-banner">
-        <!-- <div class="floating-background"></div> -->
         <div class="hero-banner__background" loading="lazy"></div>
-
         <div class="hero-banner__content">
           <h1 class="hero-banner__title">Jeremy Boxerman</h1>
           <h2 class="hero-banner__subtitle">Front End Web Developer</h2>
@@ -59,17 +57,10 @@
                   </a>
                 </div>
               </li>
-              <li>
-                <div class="icon">
-                  <a href="mailto:jboxerman08@gmail.com" target="_blank">
-                    <i class="fa-solid fa-envelope"></i>
-                  </a>
-                </div>
-              </li>
             </ul>
           </div>
           <!-- <a href="" target="_blank" download="">
-            <button class="button--primary btn-cv">
+            <button class="button--large btn-cv">
               Download CV
               <img src="images/fullstack-icons/download.svg" alt="" class="btn-svg" loading="lazy">
             </button>
@@ -96,19 +87,17 @@
       <nav class="navbar">
         <a href="#home"><img class="navbar-logo" src="images/jboxlogov2.png" alt="Logo"></a>
         <div class="navbar-links">
-          <a class="navbar-link" href="#introduction">About</a>
-          <!-- <a class="navbar-link" href="#school">School</a> -->
-          <a class="navbar-link" href="#work-projects">Work</a>
+          <a class="navbar-link" href="#introduction">About</a>          <a class="navbar-link" href="#work-projects">Work</a>
           <a class="navbar-link" href="#personal-projects">Projects</a>
-          <a class="navbar-link" href="mailto:jboxerman08@gmail.com">Contact</a>
+          <a class="navbar-link" href="#contact-form">Contact</a>
         </div>
         <!--
-                      <div class="switch">
-                        <div class="flicker"></div>
-                        <div class="moon"></div>
-                        <div class="sun"></div>
-                      </div>
-                    -->
+        <div class="switch">
+          <div class="flicker"></div>
+          <div class="moon"></div>
+          <div class="sun"></div>
+        </div>
+        -->
       </nav>
       <!-- End of Navbar section -->
 
@@ -148,7 +137,6 @@
       </section>
       <!-- End of About me section -->
 
-
       <!-- Work section -->
       <section class="work section" id="work-projects">
         <h2 class="section__title">Professional Work</h2>
@@ -173,7 +161,7 @@
               <img class="project-card__img" src="images/tonies.png" alt="" loading="lazy">
               <a href="https://us.tonies.com/" class="" target="_blank"
                 aria-label="Go to Tonies' website - this will open in a new tab">
-                <button class="button--primary project-card__btn">View website</button>
+                <button class="button button--large project-card__btn">View website</button>
               </a>
             </div>
             <div class="project-card">
@@ -181,7 +169,7 @@
               <img class="project-card__img" src="images/thinkersone.png" alt="" loading="lazy">
               <a href="https://thinkersone.com/" class="" target="_blank"
                 aria-label="Go to ThinkersOne's website - this will open in a new tab">
-                <button class="button--primary project-card__btn">View website</button>
+                <button class="button button--large project-card__btn">View website</button>
               </a>
             </div>
             <div class="project-card">
@@ -189,14 +177,13 @@
               <img class="project-card__img" src="images/giant-tiger.png" alt="" loading="lazy">
               <a href="https://www.gianttiger.com/" class="" target="_blank"
                 aria-label="Go to Giant Tiger's website - this will open in a new tab">
-                <button class="button--primary project-card__btn">View website</button>
+                <button class="button button--large project-card__btn">View website</button>
               </a>
             </div>
           </div>
         </div>
       </section>
       <!-- End of Work section -->
-
 
       <!-- Personal projects section -->
       <section class="personal-projects section" id="personal-projects">
@@ -288,9 +275,19 @@
 
       <!-- Footer section -->
       <footer class="footer">
-        <div class="footer__info">
-          <p class="footer__text">Thank you for visiting! </p>
-          <p class="footer__text">Jeremy Boxerman ⓒ 2023</p>
+        <div class="footer__contact" id="contact-form">
+          <p class="footer__text">Thank you for visiting! Let's get in touch!</p>
+          <form class="footer__contact-form" action="https://formsubmit.co/jboxerman08@gmail.com" method="POST" enctype="multipart/form-data">
+            <input type="text" name="name" placeholder="Enter your name" required>
+            <input type="email" name="email" placeholder="Enter your email" required>
+            <textarea name="message" placeholder="Send me a message"></textarea>
+            <input type="hidden" name="_subject" value="Someone is contacting you from your dev portfolio!">
+            <button class="button button--small" type="submit">Send</button>
+            <div class="footer__contact-icon">
+              <i class="fa-solid fa-envelope"></i>
+            </div>
+          </form>
+          <p class="footer__copyright">Jeremy Boxerman ⓒ 2023</p>
         </div>
         <div class="floating-background"></div>
       </footer>

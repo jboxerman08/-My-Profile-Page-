@@ -1,5 +1,4 @@
 /* Avatar Styling */
-
 .img-circle {
   border-radius: 50%;
   object-fit: cover;
@@ -10,6 +9,7 @@
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
+
 .img-circle:hover {
   border-radius: 25%;
   -webkit-transform: scale(1.2);
