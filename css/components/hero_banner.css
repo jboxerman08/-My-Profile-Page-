@@ -83,7 +83,6 @@
   display: none;
   opacity: 0;
   animation: moveBanner 1s 2s forwards;
-
 }
 
 .hero-banner__scroll-icon p {
