@@ -1,11 +1,16 @@
-.about-me__image-container {
+.education__content-wrapper {
+  display: flex;
+  gap: 100px;
+}
+
+.education__image-container {
   width: 72%;
   height: fit-content;
   border-radius: 50%;
   background-color: rgb(255, 255, 255);
 }
 
-.about-me__image {
+.education__image {
   width: 140%;
   border-radius: 16%;
   position: relative;
@@ -15,17 +20,17 @@
   transition: 0.3s;
 }
 
-.about-me__image:hover {
+.education__image:hover {
   filter: grayscale(0%);
   transition: 0.3s;
   transform: scale(1.1);
 }
 
-.about-me__title {
+.education__title {
   border-bottom: 1px solid white;
 }
 
-.about-me__text {
+.education__text {
   margin-bottom: 36px;
 }
 

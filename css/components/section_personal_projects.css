@@ -10,11 +10,11 @@
 @media only screen and (min-width: 992px) {
   .personal-projects__content {
     display: flex;
+    gap: 100px;
   }
 
   .personal-projects__text {
     width: 150%;
-    padding-right: 100px;
     padding-bottom: 0;
   }
 }

@@ -15,6 +15,11 @@
   font-size: 16px;
 }
 
+.footer__contact-header {
+  color: #D4D2D5;
+  margin-bottom: 8px;
+}
+
 .footer__copyright {
   font-size: 12px;
   margin: 32px auto 0;

@@ -2,20 +2,12 @@
 
 .fullstack-icons {
   display: flex;
-  flex-wrap: wrap;
-  grid-gap: 8px;
-  margin: auto;
-  margin-bottom: 40px;
-  background-color: currentColor;
-  padding: 8px;
-  border-radius: 8px;
-  width: fit-content;
-  justify-content: center;
+  grid-gap: 12px;
 }
 
 .icon {
-  width: 42px;
-  height: 42px;
+  width: 36px;
+  height: 36px;
   transition: all 0.3s ease-in-out;
 }
 
@@ -24,13 +16,7 @@
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
-  .fullstack-icons {
-    grid-gap: 16px;
-    margin-bottom: 0;
-  }
-
-}
+@media only screen and (min-width: 600px) {}
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {}

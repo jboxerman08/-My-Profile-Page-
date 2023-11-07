@@ -54,6 +54,7 @@
 }
 
 .hero-banner__title {
+  padding-bottom: 8px;
   opacity: 0;
   animation: moveBanner 1s .5s forwards;
 }

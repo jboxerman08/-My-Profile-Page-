@@ -1,7 +1,5 @@
 .lewagon-video {
-  position: relative;
-  text-align: center;
-  margin-top: 36px;
+  margin-top: 24px;
 }
 
 .lewagon-video iframe {
@@ -31,21 +29,5 @@
   .lewagon-video iframe {
     height: 280px;
     width: 500px;
-  }
-}
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-  .lewagon-video iframe {
-    height: 360px;
-    width: 650px;
-  }
-}
-
-/* Extra large devices (desktops, 1200px and up) */
-@media only screen and (min-width: 1900px) {
-  .lewagon-video iframe {
-    height: 415px;
-    width: 740px;
   }
 }
