@@ -1,6 +1,8 @@
 .fullstack-icons {
   display: flex;
-  grid-gap: 12px;
+  grid-gap: 30px;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .icon {
@@ -11,4 +13,12 @@
 
 .icon:hover, .icon:active {
   transform: scale(1.2);
+}
+
+@media only screen and (min-width: 992px) {
+  .fullstack-icons {
+    grid-gap: 12px;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+  }
 }

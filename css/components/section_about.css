@@ -1,6 +1,6 @@
 .education__content-wrapper {
   display: flex;
-  gap: 100px;
+  flex-direction: column;
 }
 
 .education__image-container {
@@ -32,4 +32,11 @@
 
 .education__text {
   margin-bottom: 36px;
+}
+
+@media only screen and (min-width: 992px) {
+  .education__content-wrapper {
+    flex-direction: row;
+    gap: 100px;
+  }
 }
