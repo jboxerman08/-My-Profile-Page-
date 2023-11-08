@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;500;700;900&display=swap');
 
 /* Text Styling */
 h1, h2, h3, h4, h5 {
@@ -30,7 +30,7 @@ html {
 body {
   background-color: rgb(57, 57, 57);
   font-family: 'Raleway', sans-serif;
-  font-weight: 100;
+  font-weight: 300;
   color: #D4D2D5;
   font-size: 16px;
   margin: 0;
