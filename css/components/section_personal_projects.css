@@ -10,7 +10,7 @@
 @media only screen and (min-width: 992px) {
   .personal-projects__content {
     display: flex;
-    gap: 100px;
+    gap: 60px;
   }
 
   .personal-projects__text {
