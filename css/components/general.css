@@ -54,7 +54,11 @@ a {
   text-decoration: none;
   line-height: 8px;
   color: #fa8334;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+a:hover {
+  color: #fdaf7b;
 }
 
 .section {

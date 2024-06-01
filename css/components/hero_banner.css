@@ -184,4 +184,8 @@
     transition: 0.3s;
     transform: scale(1.1);
   }
+
+  .hero-banner__subtitle {
+    padding-bottom: 40px;
+  }
 }
