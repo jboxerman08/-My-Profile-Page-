@@ -9,6 +9,7 @@
 
 .personal-projects__images {
   padding-bottom: 16px;
+  text-align: -webkit-center;
 }
 
 .project__img {
