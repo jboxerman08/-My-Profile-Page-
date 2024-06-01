@@ -7,14 +7,73 @@
   padding-top: 36px;
 }
 
+.personal-projects__images {
+  padding-bottom: 16px;
+}
+
+.project__img {
+  display: block;
+  border-radius: 16px;
+  max-width: 280px;
+  box-shadow: 2px 2px 8px #131313;
+  transition: all 0.3s ease-in-out;
+}
+
+.project__img:hover {
+  transform: scale(1.05);
+}
+
+.project__img:first-of-type {
+  position: relative;
+  rotate: 1deg;
+  z-index: 1;
+}
+
+.project__img:first-of-type:hover {
+  rotate: -1deg;
+}
+
+.project__img:last-of-type {
+  position: relative;
+  top: -20px;
+  left: 20px;
+  rotate: -1deg;
+  z-index: 0;
+}
+
+.project__img:last-of-type:hover {
+  rotate: 1deg;
+  z-index: 2;
+}
+
 @media only screen and (min-width: 992px) {
   .personal-projects__content {
     display: flex;
     gap: 60px;
   }
 
+  .personal-projects__content:not(.personal-projects__content:first-of-type) {
+    padding-top: 36px;
+  }
+
+  .personal-projects__content .fullstack-icons {
+    padding-top: 16px;
+  }
+
   .personal-projects__text {
     width: 150%;
     padding-top: 0;
+  }
+
+  .personal-projects__images {
+    padding-bottom: 0;
+  }
+
+  .project__img {
+    max-width: 450px;
+  }
+
+  .project__img:last-of-type {
+    top: -60px;
   }
 }

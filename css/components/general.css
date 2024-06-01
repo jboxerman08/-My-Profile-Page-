@@ -32,6 +32,10 @@ html {
   scroll-behavior: smooth;
 }
 
+.keyword {
+  font-weight: 600;
+}
+
 body {
   background-color: rgb(57, 57, 57);
   font-family: "Raleway", sans-serif;
@@ -55,6 +59,7 @@ a {
   line-height: 8px;
   color: #fa8334;
   transition: all 0.2s ease-in-out;
+  font-weight: 600;
 }
 
 a:hover {
@@ -76,6 +81,14 @@ h3.section__sub-title {
   font-size: 24px;
 }
 
+.section__description-wrapper {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 16px;
+}
+
 p.section__date {
   font-size: 12px;
   font-style: italic;
@@ -86,6 +99,7 @@ p.section__date {
 #education,
 #school,
 #work-projects,
+#freelance-projects,
 #personal-projects {
   padding-top: 108px;
   margin-top: -108px;
@@ -103,6 +117,13 @@ p.section__date {
 
   .section {
     width: 75%;
+    padding-bottom: 60px;
+  }
+
+  .section__description-wrapper {
+    gap: 60px;
+    flex-direction: row;
+    padding-bottom: 0;
   }
 }
 

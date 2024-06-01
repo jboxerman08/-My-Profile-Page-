@@ -18,17 +18,15 @@
 }
 
 .work__img {
-  display: none;
+  display: block;
+  max-width: 300px;
+  height: 100%;
+  border-radius: 16px;
 }
 
-/* Extra large devices (large laptops and desktops, 1600px and up) */
-@media only screen and (min-width: 1600px) {
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
   .work__img {
-    display: block;
-    width: 25%;
-    height: 100%;
-    border-radius: 16px;
-    margin-right: 60px;
-    filter: grayscale(100%);
+    max-width: 350px;
   }
 }

@@ -26,12 +26,14 @@
 
 .navbar-links {
   display: flex;
+  font-size: 12px;
 }
 
 .navbar-link {
   padding: 0 8px;
   display: inline-block;
   position: relative;
+  font-weight: 100;
 }
 
 .navbar-link::before {
@@ -65,6 +67,10 @@
   .navbar-logo {
     width: 40px;
     height: 40px;
+  }
+
+  .navbar-links {
+    font-size: 16px;
   }
 }
 
