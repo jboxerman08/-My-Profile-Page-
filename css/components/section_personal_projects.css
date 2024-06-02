@@ -73,8 +73,4 @@
   .project__img {
     max-width: 450px;
   }
-
-  .project__img:last-of-type {
-    top: -60px;
-  }
 }

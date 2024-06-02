@@ -17,4 +17,32 @@
   height: 100%;
   object-fit: cover;
   border-radius: 12px;
+  max-height: 475px;
+}
+
+/* Swiper img section change */
+.text-img-group {
+  display: flex;
+  gap: 32px;
+  padding-top: 24px;
+  align-items: center;
+}
+
+.text-img-group p {
+  margin: 0;
+}
+
+.blender-img--small {
+  border-radius: 12px;
+  width: 125px;
+  height: 125px;
+  box-shadow: 2px 2px 8px #202020;
+}
+
+.blender-img--small:nth-child(odd) {
+  rotate: 1deg;
+}
+
+.blender-img--small:nth-child(even) {
+  rotate: -1deg;
 }
