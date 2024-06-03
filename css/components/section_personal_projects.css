@@ -8,49 +8,77 @@
 }
 
 .personal-projects__images {
-  padding-bottom: 16px;
+  padding-bottom: 36px;
   text-align: -webkit-center;
+  position: relative;
 }
 
 .project__img {
   display: block;
   border-radius: 16px;
   max-width: 280px;
+  max-height: 140px;
   box-shadow: 2px 2px 8px #131313;
   transition: all 0.3s ease-in-out;
 }
 
-.project__img:hover {
-  transform: scale(1.05);
-}
-
-.project__img:first-of-type {
+.project__img:nth-of-type(1) {
   position: relative;
   rotate: 1deg;
   z-index: 1;
+  left: 0;
 }
 
-.project__img:first-of-type:hover {
+.project__img:nth-of-type(1):hover {
   rotate: -1deg;
+  z-index: 10;
+  transform: scale(1.1);
 }
 
-.project__img:last-of-type {
-  position: relative;
-  top: -20px;
-  left: 20px;
+.project__img:nth-of-type(2) {
+  position: absolute;
+  z-index: 3;
   rotate: -1deg;
-  z-index: 0;
+  top: 60px;
+  left: -10px;
 }
 
-.project__img:last-of-type:hover {
+.project__img:nth-of-type(2):hover {
   rotate: 1deg;
-  z-index: 2;
+  z-index: 10;
+  transform: scale(1.2);
+}
+
+.project__img:nth-of-type(3) {
+  position: relative;
+  left: 0;
+  rotate: -1deg;
+}
+
+.project__img:nth-of-type(3):hover {
+  z-index: 10;
+  rotate: 1deg;
+  transform: scale(1.1);
+}
+
+.project__img:nth-of-type(4) {
+  position: absolute;
+  top: 60px;
+  right: -10px;
+  z-index: 3;
+  rotate: 1deg;
+}
+
+.project__img:nth-of-type(4):hover {
+  rotate: -1deg;
+  z-index: 10;
+  transform: scale(1.2);
 }
 
 @media only screen and (min-width: 992px) {
   .personal-projects__content {
     display: flex;
-    gap: 60px;
+    gap: 150px;
     align-items: center;
   }
 
@@ -72,5 +100,24 @@
 
   .project__img {
     max-width: 450px;
+    max-height: 200px;
+  }
+
+  .project__img:nth-of-type(1) {
+    left: 30px;
+  }
+
+  .project__img:nth-of-type(2) {
+    top: 100px;
+    left: -20px;
+  }
+
+  .project__img:nth-of-type(3) {
+    left: 40px;
+  }
+
+  .project__img:nth-of-type(4) {
+    top: 100px;
+    right: -80px;
   }
 }
