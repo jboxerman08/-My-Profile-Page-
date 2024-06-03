@@ -15,15 +15,16 @@
 
 .project__img {
   display: block;
-  border-radius: 16px;
   max-width: 280px;
   max-height: 140px;
   box-shadow: 2px 2px 8px #131313;
   transition: all 0.3s ease-in-out;
 }
 
+/* Top desktop image */
 .project__img:nth-of-type(1) {
   position: relative;
+  border-radius: 16px;
   rotate: 1deg;
   z-index: 1;
   left: 0;
@@ -35,8 +36,10 @@
   transform: scale(1.1);
 }
 
+/* Left mobile image */
 .project__img:nth-of-type(2) {
   position: absolute;
+  border-radius: 8px;
   z-index: 3;
   rotate: -2deg;
   top: 60px;
@@ -49,8 +52,10 @@
   transform: scale(1.2);
 }
 
+/* Bottom desktop image */
 .project__img:nth-of-type(3) {
   position: relative;
+  border-radius: 16px;
   left: 0;
   rotate: -1deg;
 }
@@ -61,8 +66,10 @@
   transform: scale(1.1);
 }
 
+/* Right mobile image */
 .project__img:nth-of-type(4) {
   position: absolute;
+  border-radius: 8px;
   top: 60px;
   right: -10px;
   z-index: 3;
