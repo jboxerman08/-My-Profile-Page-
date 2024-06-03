@@ -38,13 +38,13 @@
 .project__img:nth-of-type(2) {
   position: absolute;
   z-index: 3;
-  rotate: -1deg;
+  rotate: -2deg;
   top: 60px;
   left: -10px;
 }
 
 .project__img:nth-of-type(2):hover {
-  rotate: 1deg;
+  rotate: 2deg;
   z-index: 10;
   transform: scale(1.2);
 }
@@ -66,11 +66,11 @@
   top: 60px;
   right: -10px;
   z-index: 3;
-  rotate: 1deg;
+  rotate: 2deg;
 }
 
 .project__img:nth-of-type(4):hover {
-  rotate: -1deg;
+  rotate: -2deg;
   z-index: 10;
   transform: scale(1.2);
 }
