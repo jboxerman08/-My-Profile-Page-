@@ -51,6 +51,7 @@
   .personal-projects__content {
     display: flex;
     gap: 60px;
+    align-items: center;
   }
 
   .personal-projects__content:not(.personal-projects__content:first-of-type) {

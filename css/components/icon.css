@@ -1,8 +1,13 @@
 .fullstack-icons {
   display: flex;
-  grid-gap: 30px;
+  grid-gap: 20px 30px;
   flex-wrap: wrap;
   justify-content: center;
+}
+
+.fullstack-icons:first-of-type {
+  width: 90%;
+  margin: auto;
 }
 
 .icon {
@@ -21,5 +26,10 @@
     grid-gap: 12px;
     flex-wrap: nowrap;
     justify-content: flex-start;
+  }
+
+  .fullstack-icons:first-of-type {
+    width: 100%;
+    margin: auto;
   }
 }
