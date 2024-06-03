@@ -183,6 +183,7 @@
     filter: grayscale(0%);
     transition: 0.3s;
     transform: scale(1.1);
+    rotate: -1deg;
   }
 
   .hero-banner__subtitle {

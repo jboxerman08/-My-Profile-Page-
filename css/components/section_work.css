@@ -20,6 +20,12 @@
 .work__img {
   max-width: 300px;
   border-radius: 16px;
+  transition: all 0.3s ease-in-out;
+}
+
+.work__img:hover {
+  transform: scale(1.025);
+  rotate: -1deg;
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */

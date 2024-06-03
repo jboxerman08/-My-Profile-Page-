@@ -26,7 +26,7 @@
   position: relative;
   border-radius: 16px;
   rotate: 1deg;
-  z-index: 1;
+  z-index: 2;
   left: 0;
 }
 
@@ -57,7 +57,9 @@
   position: relative;
   border-radius: 16px;
   left: 0;
+  top: -12px;
   rotate: -1deg;
+  z-index: 1;
 }
 
 .project__img:nth-of-type(3):hover {

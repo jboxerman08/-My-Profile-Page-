@@ -43,7 +43,8 @@
 .button-group {
   display: flex;
   align-self: center;
-  padding-bottom: 20px;
+  margin-bottom: 20px;
+  box-shadow: 2px 2px 8px #202020;
 }
 
 .button--blender-projects {

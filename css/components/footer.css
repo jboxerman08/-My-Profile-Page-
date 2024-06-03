@@ -34,12 +34,13 @@
   align-items: center;
   position: relative;
   box-shadow: 0px 0px 8px #00505b;
+  gap: 4px;
 }
 
 .footer__contact-form input,
 .footer__contact-form textarea {
   width: 90%;
-  padding: 8px 8px;
+  padding: 12px;
   margin: 4px 0;
   border-radius: 8px;
   border: none;
