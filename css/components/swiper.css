@@ -2,6 +2,7 @@
   width: 100%;
   padding-top: 50px;
   padding-bottom: 50px;
+  text-align: -webkit-center;
 }
 
 .swiper-slide {
@@ -9,6 +10,8 @@
   background-size: cover;
   width: 300px;
   height: 300px;
+  max-height: 300px;
+  max-width: 300px;
 }
 
 .swiper-slide img {
@@ -17,15 +20,69 @@
   height: 100%;
   object-fit: cover;
   border-radius: 12px;
-  max-height: 475px;
+  max-height: 300px;
+  max-width: 300px;
+}
+
+.section__content {
+  display: flex;
+  gap: 32px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.text-swipers-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.swipers {
+  display: flex;
+}
+
+.button-group {
+  display: flex;
+  align-self: center;
+  padding-bottom: 20px;
+}
+
+.button--blender-projects {
+  background: #fa8334;
+  padding: 8px 12px;
+  border-radius: 8px 0px 0px 8px;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.button--blender-projects:first-of-type {
+  border-radius: 8px 0 0 8px;
+  border-right: 2px solid white;
+}
+
+.button--blender-projects:last-of-type {
+  border-radius: 0 8px 8px 0;
+}
+
+.button--blender-projects.selected {
+  background: #a05320;
 }
 
 /* Swiper img section change */
 .text-img-group {
   display: flex;
-  gap: 32px;
+  gap: 24px;
   padding-top: 24px;
   align-items: center;
+}
+
+.text-img-group:first-of-type {
+  flex-direction: column;
+}
+
+.text-img-group:last-of-type {
+  flex-direction: column-reverse;
+  padding-bottom: 8px;
 }
 
 .text-img-group p {
@@ -34,8 +91,8 @@
 
 .blender-img--small {
   border-radius: 12px;
-  width: 125px;
-  height: 125px;
+  width: 200px;
+  height: 200px;
   box-shadow: 2px 2px 8px #202020;
 }
 
@@ -45,4 +102,48 @@
 
 .blender-img--small:nth-child(even) {
   rotate: -1deg;
+}
+
+@media only screen and (min-width: 1200px) {
+  .section__content {
+    flex-direction: row;
+    gap: 60px;
+  }
+
+  .text-swipers-group {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+  }
+
+  .text-img-group {
+    flex-direction: row;
+    gap: 32px;
+  }
+
+  .text-img-group:first-of-type {
+    flex-direction: row;
+  }
+
+  .text-img-group:last-of-type {
+    flex-direction: row;
+    padding-bottom: 16px;
+  }
+
+  .blender-img--small {
+    width: 125px;
+    height: 125px;
+  }
+
+  .swiper-slide {
+    width: 300px;
+    height: 300px;
+    max-height: 400px;
+    max-width: 400px;
+  }
+
+  .swiper-slide img {
+    max-height: 400px;
+    max-width: 400px;
+  }
 }

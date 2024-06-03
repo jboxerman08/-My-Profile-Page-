@@ -4,7 +4,7 @@
 
 .personal-projects__text {
   width: 100%;
-  padding-top: 36px;
+  padding-top: 0;
 }
 
 .personal-projects__images {
@@ -63,7 +63,6 @@
 
   .personal-projects__text {
     width: 150%;
-    padding-top: 0;
   }
 
   .personal-projects__images {
