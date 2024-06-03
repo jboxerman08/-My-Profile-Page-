@@ -49,10 +49,6 @@ var swiper = new Swiper(".polygonRunwaySwiper", {
     modifier: 1,
     slideShadows: true,
   },
-  navigation: {
-    nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev",
-  },
   pagination: {
     el: ".swiper-pagination",
     clickable: true,
@@ -70,10 +66,6 @@ var swiper = new Swiper(".personalProjectsSwiper", {
     depth: 100,
     modifier: 1,
     slideShadows: true,
-  },
-  navigation: {
-    nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev",
   },
   pagination: {
     el: ".swiper-pagination",
