@@ -85,7 +85,7 @@
 @media only screen and (min-width: 992px) {
   .personal-projects__content {
     display: flex;
-    gap: 150px;
+    gap: 140px;
     align-items: center;
   }
 
