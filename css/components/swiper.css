@@ -36,6 +36,12 @@
   flex-direction: column;
 }
 
+.project-toggle-group {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
 .swipers {
   display: flex;
 }
@@ -43,7 +49,7 @@
 .button-group {
   display: flex;
   align-self: center;
-  margin-bottom: 20px;
+  margin: 0 auto 20px;
   box-shadow: 2px 2px 8px #202020;
 }
 

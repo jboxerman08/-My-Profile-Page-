@@ -1,3 +1,17 @@
+// Freelance section overview vs review toggler variables
+const buttonProjectOverviewMgl = document.querySelector(
+  ".button--mgl-project-overview"
+);
+const buttonProjectReviewMgl = document.querySelector(
+  ".button--mgl-project-review"
+);
+
+const projectOverviewMgl = document.querySelector(
+  ".project-overview-images--mgl"
+);
+const projectReviewMgl = document.querySelector(".project-review--mgl");
+
+// Personal Projects swiper toggler variables
 const buttonPolygon = document.querySelector(".button--polygon");
 const buttonPersonal = document.querySelector(".button--personal");
 
@@ -12,6 +26,14 @@ window.onload = () => {
     document.querySelector("body").classList.add("display");
   }, 3000);
 
+  // Freelance projects - MGL
+  buttonProjectOverviewMgl.classList.add("selected");
+  buttonProjectReviewMgl.classList.remove("selected");
+
+  projectOverviewMgl.style.display = "inline";
+  projectReviewMgl.style.display = "none";
+
+  // 3D swipers
   buttonPolygon.classList.remove("selected");
   buttonPersonal.classList.add("selected");
 
@@ -73,6 +95,23 @@ var swiper = new Swiper(".personalProjectsSwiper", {
   },
 });
 // End of Swiper
+
+// Toggle view MGL Project Overview vs Client Review container swiper
+buttonProjectOverviewMgl.addEventListener("click", () => {
+  buttonProjectOverviewMgl.classList.add("selected");
+  buttonProjectReviewMgl.classList.remove("selected");
+
+  projectOverviewMgl.style.display = "inline";
+  projectReviewMgl.style.display = "none";
+});
+
+buttonProjectReviewMgl.addEventListener("click", () => {
+  buttonProjectOverviewMgl.classList.remove("selected");
+  buttonProjectReviewMgl.classList.add("selected");
+
+  projectOverviewMgl.style.display = "none";
+  projectReviewMgl.style.display = "inline";
+});
 
 // Toggle view Polygon Vs Personal projects swiper
 buttonPolygon.addEventListener("click", () => {

@@ -1,0 +1,135 @@
+.project-review--mgl {
+  width: auto;
+  min-height: 350px;
+}
+
+.project-review--client-info {
+  display: flex;
+  align-items: center;
+  flex-direction: column-reverse;
+  gap: 16px;
+}
+
+.client-avatar:before {
+  content: "";
+  position: absolute;
+  top: 10%;
+  bottom: 10%;
+  right: -5%;
+  left: -5%;
+  background: inherit;
+  border-radius: 5% / 50%;
+}
+.client-avatar-wrapper {
+  position: relative;
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  z-index: 2;
+  border: 2px solid lightgray;
+  overflow: hidden;
+  box-shadow: 2px 2px 8px #202020;
+  transition: all 0.3s ease-in-out;
+}
+
+.client-avatar-wrapper:hover {
+  transform: scale(1.1);
+}
+
+.client-avatar {
+  width: 105%;
+  height: 275%;
+  object-fit: cover;
+  object-position: top;
+  transition: all 0.3s ease-in-out;
+}
+
+.client-name-title {
+  text-align: center;
+}
+
+.project-review-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.project-review--text-background {
+  position: absolute;
+  width: 270px;
+  height: 175px;
+  margin: 15px 3px;
+  background: #fa8334;
+  border-radius: 70% / 14%;
+  rotate: 1deg;
+}
+
+.project-review--text-background:before {
+  content: "";
+  position: absolute;
+  top: 10%;
+  bottom: 10%;
+  right: -5%;
+  left: -5%;
+  background: inherit;
+  border-radius: 5% / 50%;
+}
+
+.project-review--text {
+  position: relative;
+  width: 260px;
+  height: 165px;
+  margin-top: -10px;
+  background: #fa8334;
+  border-radius: 50% / 10%;
+  color: white;
+  text-indent: 2em;
+  font-size: 14px;
+}
+
+.project-review--text:before {
+  content: "";
+  position: absolute;
+  top: 1%;
+  bottom: -20%;
+  right: -12%;
+  left: -8%;
+  background: inherit;
+  border-radius: 10% / 50%;
+  rotate: 2deg;
+  border: 2px solid lightgray;
+}
+
+@media only screen and (min-width: 992px) {
+  .project-review--mgl {
+    min-width: 480.63px;
+    min-height: 400px;
+  }
+
+  .project-review--text-background {
+    width: 330px;
+  }
+
+  .project-review--text:before {
+    right: -7%;
+  }
+
+  .project-review--text {
+    font-size: 16px;
+    width: 400px;
+    height: 150px;
+  }
+
+  .project-review--client-info {
+    flex-direction: row;
+  }
+
+  .client-avatar-wrapper {
+    width: 125px;
+    height: 125px;
+  }
+
+  .client-name-title {
+    text-align: left;
+  }
+}

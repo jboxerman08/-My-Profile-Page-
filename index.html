@@ -278,31 +278,77 @@
         <section class="freelance section" id="freelance-projects">
           <h2 class="section__title">Freelance Work</h2>
           <div class="personal-projects__content">
-            <div class="personal-projects__images">
-              <img
-                class="project__img"
-                src="images/mgl-homescreen.png"
-                alt="Landing page of Matt Greiner's booking app lessons"
-                loading="lazy"
-              />
-              <img
-                class="project__img"
-                src="images/mgl-homescreen-mobile.png"
-                alt="Landing page of Matt Greiner's booking app lessons, mobile version"
-                loading="lazy"
-              />
-              <img
-                class="project__img"
-                src="images/mgl-bookingscreen.png"
-                alt="Booking page of Matt Greiner's booking app lessons"
-                loading="lazy"
-              />
-              <img
-                class="project__img"
-                src="images/mgl-bookingscreen-mobile.png"
-                alt="Booking page of Matt Greiner's booking app lessons"
-                loading="lazy"
-              />
+            <div class="project-toggle-group">
+              <!-- Button group to show between project overview and customer review -->
+              <div class="button-group">
+                <button
+                  class="button--blender-projects button--mgl-project-overview"
+                >
+                  Project Overview
+                </button>
+                <button
+                  class="button--blender-projects button--mgl-project-review"
+                >
+                  Client Review
+                </button>
+              </div>
+              <!-- MGL Booking Lesson Images -->
+              <div
+                class="personal-projects__images project-overview-images--mgl"
+              >
+                <img
+                  class="project__img"
+                  src="images/mgl-homescreen.png"
+                  alt="Landing page of Matt Greiner's booking app lessons"
+                  loading="lazy"
+                />
+                <img
+                  class="project__img"
+                  src="images/mgl-homescreen-mobile.png"
+                  alt="Landing page of Matt Greiner's booking app lessons, mobile version"
+                  loading="lazy"
+                />
+                <img
+                  class="project__img"
+                  src="images/mgl-bookingscreen.png"
+                  alt="Booking page of Matt Greiner's booking app lessons"
+                  loading="lazy"
+                />
+                <img
+                  class="project__img"
+                  src="images/mgl-bookingscreen-mobile.png"
+                  alt="Booking page of Matt Greiner's booking app lessons"
+                  loading="lazy"
+                />
+              </div>
+
+              <div class="project-review--mgl">
+                <div class="project-review-content">
+                  <div class="project-review--client-info">
+                    <div class="client-avatar-wrapper">
+                      <img
+                        src="images/mgl-face.jpeg"
+                        alt=""
+                        class="client-avatar"
+                      />
+                    </div>
+                    <div class="client-name-title">
+                      <h3>Matt Greiner</h3>
+                      <h4>Matt Greiner Lessons / August Burns Red</h4>
+                    </div>
+                  </div>
+                  <div class="project-review--text">
+                    <div class="project-review--text-background"></div>
+                    <p>
+                      "Working with Jeremy is telling a painter to paint a
+                      sunset and all you had to do was hand him the paintbrush.
+                      He takes an idea and uses his experience and incredible
+                      work ethic to see the project through until it's done and
+                      working like a dream. Thanks Jeremy!"
+                    </p>
+                  </div>
+                </div>
+              </div>
             </div>
             <div>
               <h3 class="section__sub-title">

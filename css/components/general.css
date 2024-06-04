@@ -77,10 +77,6 @@ a:hover {
   margin-bottom: 36px;
 }
 
-h3.section__sub-title {
-  font-size: 24px;
-}
-
 .section__description-wrapper {
   display: flex;
   gap: 16px;
@@ -112,6 +108,10 @@ p.section__date {
   }
 
   h2 {
+    font-size: 50px;
+  }
+
+  h3 {
     font-size: 36px;
   }
 

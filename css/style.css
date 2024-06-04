@@ -13,24 +13,29 @@
 @import url("components/icon.css");
 @import url("components/loading_spinner.css");
 @import url("components/section_about.css");
+@import url("components/section_freelance.css");
 @import url("components/lewagon_video.css");
 @import url("components/section_personal_projects.css");
 @import url("components/section_work.css");
 @import url("components/social_links.css");
 @import url("components/swiper.css");
 
-
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {}
+@media only screen and (min-width: 600px) {
+}
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {}
+@media only screen and (min-width: 768px) {
+}
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {}
+@media only screen and (min-width: 992px) {
+}
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {}
+@media only screen and (min-width: 1200px) {
+}
 
 /* Large screens (desktops and large screens, 1800px and up) */
-@media only screen and (min-width: 1800px) {}
+@media only screen and (min-width: 1800px) {
+}
