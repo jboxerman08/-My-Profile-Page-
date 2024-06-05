@@ -34,6 +34,8 @@
 .text-swipers-group {
   display: flex;
   flex-direction: column;
+  min-width: 320px;
+  min-height: 351px;
 }
 
 .project-toggle-group {
@@ -60,6 +62,12 @@
   border: none;
   color: white;
   cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.button--blender-projects:hover:not(.selected) {
+  background: #ffa163;
+  transform: scale(1.05);
 }
 
 .button--blender-projects:first-of-type {
@@ -69,6 +77,7 @@
 
 .button--blender-projects:last-of-type {
   border-radius: 0 8px 8px 0;
+  border-left: 2px solid white;
 }
 
 .button--blender-projects.selected {
@@ -133,6 +142,8 @@
   .text-swipers-group {
     display: flex;
     flex-direction: column;
+    min-width: 324px;
+    min-height: 375px;
     max-width: 400px;
   }
 
@@ -165,5 +176,12 @@
   .swiper-slide img {
     max-height: 400px;
     max-width: 400px;
+  }
+}
+
+@media only screen and (min-width: 1900px) {
+  .text-swipers-group {
+    min-width: 380px;
+    min-height: 431px;
   }
 }
