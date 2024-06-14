@@ -33,3 +33,11 @@
     width: 500px;
   }
 }
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 1200px) {
+  .lewagon-video iframe {
+    height: 220px;
+    width: 400px;
+  }
+}

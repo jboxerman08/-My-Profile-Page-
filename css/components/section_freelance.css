@@ -56,9 +56,9 @@
 
 .project-review--text-background {
   position: absolute;
-  width: 270px;
-  height: 175px;
-  margin: 15px 3px;
+  width: 250px;
+  height: 190px;
+  margin: 16px 0px;
   background: #fa8334;
   border-radius: 70% / 14%;
   rotate: 1deg;
@@ -85,13 +85,13 @@
   color: white;
   text-indent: 2em;
   font-size: 14px;
-  text-shadow: 2px 2px 4px black;
+  text-shadow: 0px 0px 4px black;
 }
 
 .project-review--text:before {
   content: "";
   position: absolute;
-  top: 1%;
+  top: 3%;
   bottom: -20%;
   right: -12%;
   left: -8%;
@@ -109,9 +109,12 @@
 
   .project-review--text-background {
     width: 330px;
+    height: 175px;
+    margin: 15px 3px;
   }
 
   .project-review--text:before {
+    top: 1%;
     right: -7%;
   }
 

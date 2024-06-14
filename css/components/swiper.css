@@ -142,9 +142,10 @@
   .text-swipers-group {
     display: flex;
     flex-direction: column;
-    min-width: 324px;
-    min-height: 375px;
+    min-width: 400px;
+    min-height: 451px;
     max-width: 400px;
+    max-height: 451px;
   }
 
   .text-img-group {
@@ -176,12 +177,5 @@
   .swiper-slide img {
     max-height: 400px;
     max-width: 400px;
-  }
-}
-
-@media only screen and (min-width: 1900px) {
-  .text-swipers-group {
-    min-width: 380px;
-    min-height: 431px;
   }
 }
