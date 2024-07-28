@@ -39,7 +39,7 @@
 /* Left mobile image */
 .project__img:nth-of-type(2) {
   position: absolute;
-  border-radius: 8px;
+  border-radius: 14px;
   z-index: 3;
   rotate: -2deg;
   top: 60px;
@@ -71,7 +71,7 @@
 /* Right mobile image */
 .project__img:nth-of-type(4) {
   position: absolute;
-  border-radius: 8px;
+  border-radius: 14px;
   top: 60px;
   right: -10px;
   z-index: 3;
